@@ -1,5 +1,5 @@
 <?PHP
 
-echop "test";
+echo "test";
 
 ?>

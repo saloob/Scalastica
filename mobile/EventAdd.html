@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            EventAdd
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/dendrite/dendrite.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/login.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/Facebook_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/External_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/scalastica.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="EventAdd" id="EventAdd" class="type-interior"
+        data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="EventAdd_mobileheader" class="EventAdd_mobileheader">
+                <h1 dsid="mobileheader">
+                    Add New Event
+                </h1>
+                <!-- btn_home --><!--
+                --><a data-role="button" name="btn_home" dsid="btn_home" class="EventAdd_btn_home ui-btn-left"
+                style='min-height:16px; ' id="EventAdd_btn_home" data-corners="true" data-icon="home"
+                data-iconpos="left" x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="b" tabindex="8">
+                &nbsp;
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="EventAdd_mobilecontainer" name="mobilecontainer" class="EventAdd_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="b">
+                <link href="EventAdd.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="EventAdd.js">
+                </script>
+                <!-- event_id -->
+                <div name="event_id" id="EventAdd_event_id" dsid="event_id" data-role="appery_label"
+                class="EventAdd_event_id">
+                    Event ID
+                </div>
+                <!-- parent_event --><!--
+                --><a data-role="button" name="parent_event" dsid="parent_event" class="EventAdd_parent_event"
+                id="EventAdd_parent_event" data-corners="true" data-icon="arrow-u" data-iconpos="left"
+                x-apple-data-detectors="false" data-mini="true" data-theme="b" tabindex="13">
+                Parent
+                </a><!--
+                --><!-- event_name -->
+                <div data-role="fieldcontain" class="EventAdd_event_name ">
+                    <input type="text" name="event_name" dsid="event_name" value="Event Name" placeholder="Event Name"
+                    id="EventAdd_event_name" tabindex="2" multiple data-theme="b" class="EventAdd_event_name"
+                    />
+                </div>
+                <!-- categories -->
+                <div data-role="fieldcontain" class="EventAdd_categories ">
+                    <select name="categories" id="EventAdd_categories" dsid="categories" data-theme="b"
+                    data-role="appery_selectmenu" data-inline="false" data-mini="true" data-icon="arrow-d"
+                    data-iconpos="right" data-native-menu="false" tabindex="3" appery-class="EventAdd_categories">
+                        <option id="EventAdd_categories-0" value="" reRender="categories" dsid="categories-0">
+                        </option>
+                    </select>
+                </div>
+                <!-- start_date -->
+                <div id="EventAdd_start_date" dsid="start_date" name="start_date" tiggzitype="object"
+                apperytype="object" apperyclass="datepicker" tiggziclass="datepicker" data-theme="b"
+                class="EventAdd_start_date ui-field-contain">
+                    <div class="datePickerControls">
+                        <a data-role="button" data-corners="true" data-icon="grid" data-iconpos="notext"
+                        data-mini="false" data-theme="b" class="datepickeropenbutton" title="Open Date Picker"
+                        style="margin-top:3px; vertical-align: middle; display: inline-block;">
+                        Open Date Picker
+                        </a>
+                        <div class="inputContainer">
+                            <input type="text" data-theme="b" value="" tabindex="11" />
+                        </div>
+                    </div>
+                </div>
+                <!-- end_date -->
+                <div id="EventAdd_end_date" dsid="end_date" name="end_date" tiggzitype="object"
+                apperytype="object" apperyclass="datepicker" tiggziclass="datepicker" data-theme="b"
+                class="EventAdd_end_date ui-field-contain">
+                    <div class="datePickerControls">
+                        <a data-role="button" data-corners="true" data-icon="grid" data-iconpos="notext"
+                        data-mini="false" data-theme="b" class="datepickeropenbutton" title="Open Date Picker"
+                        style="margin-top:3px; vertical-align: middle; display: inline-block;">
+                        Open Date Picker
+                        </a>
+                        <div class="inputContainer">
+                            <input type="text" data-theme="b" value="" tabindex="12" />
+                        </div>
+                    </div>
+                </div>
+                <!-- location_name -->
+                <div data-role="fieldcontain" class="EventAdd_location_name ">
+                    <input type="text" name="location_name" dsid="location_name" value="Location" placeholder="Location"
+                    id="EventAdd_location_name" tabindex="4" multiple data-theme="b" class="EventAdd_location_name"
+                    />
+                </div>
+                <!-- latitude -->
+                <div data-role="fieldcontain" class="EventAdd_latitude ">
+                    <input type="text" name="latitude" dsid="latitude" value="Latitude" placeholder="Latitude"
+                    id="EventAdd_latitude" tabindex="5" multiple data-theme="b" class="EventAdd_latitude"
+                    />
+                </div>
+                <!-- longitude -->
+                <div data-role="fieldcontain" class="EventAdd_longitude ">
+                    <input type="text" name="longitude" dsid="longitude" value="Longitude" placeholder="Longitude"
+                    id="EventAdd_longitude" tabindex="6" multiple data-theme="b" class="EventAdd_longitude"
+                    />
+                </div>
+                <!-- description -->
+                <div data-role="fieldcontain" class="EventAdd_description ">
+                    <textarea name="description" id="EventAdd_description" tabindex="1" dsid="description"
+                    data-theme="b" placeholder="Event Description" class="EventAdd_description">Event Description
+</textarea>
+                </div>
+                <!-- btn_submit_event --><!--
+                --><a data-role="button" name="btn_submit_event" dsid="btn_submit_event" class="EventAdd_btn_submit_event"
+                id="EventAdd_btn_submit_event" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="true" data-theme="b" tabindex="7">
+                Submit
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="EventAdd_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="EventAdd_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

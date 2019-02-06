@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            MyProfile
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/dendrite/dendrite.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/login.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/Facebook_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/External_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/scalastica.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="MyProfile" id="MyProfile"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="MyProfile_mobileheader" class="MyProfile_mobileheader">
+                <h1 dsid="mobileheader">
+                    My Profile
+                </h1>
+                <!-- mobilebutton_2 --><!--
+                --><a data-role="button" name="mobilebutton_2" dsid="mobilebutton_2" class="MyProfile_mobilebutton_2 ui-btn-left"
+                style='min-height:16px; ' id="MyProfile_mobilebutton_2" data-corners="true" data-icon="home"
+                data-iconpos="left" x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="b" tabindex="1">
+                &nbsp;
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="MyProfile_mobilecontainer" name="mobilecontainer" class="MyProfile_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="b">
+                <link href="MyProfile.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="MyProfile.js">
+                </script>
+                <!-- mobilegrid_3 -->
+                <div class="MyProfile_mobilegrid_3_wrapper" data-wrapper-for="mobilegrid_3">
+                    <table id="MyProfile_mobilegrid_3" class="MyProfile_mobilegrid_3" dsid="mobilegrid_3"
+                    name="mobilegrid_3" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="MyProfile_mobilegrid_3_row_0">
+                            <!-- mobilegridcell_4 -->
+                            <td id="MyProfile_mobilegridcell_4" name="mobilegridcell_4" class="MyProfile_mobilegridcell_4"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_13 -->
+                                    <div name="mobilelabel_13" id="MyProfile_mobilelabel_13" dsid="mobilelabel_13" data-role="appery_label"
+                                    class="MyProfile_mobilelabel_13">
+                                        First Name:
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_14 -->
+                            <td id="MyProfile_mobilegridcell_14" name="mobilegridcell_14" class="MyProfile_mobilegridcell_14"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- first_name -->
+                                    <div name="first_name" id="MyProfile_first_name" dsid="first_name" data-role="appery_label"
+                                    class="MyProfile_first_name">
+                                        First Name
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="MyProfile_mobilegrid_3_row_1">
+                            <!-- mobilegridcell_6 -->
+                            <td id="MyProfile_mobilegridcell_6" name="mobilegridcell_6" class="MyProfile_mobilegridcell_6"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_19 -->
+                                    <div name="mobilelabel_19" id="MyProfile_mobilelabel_19" dsid="mobilelabel_19" data-role="appery_label"
+                                    class="MyProfile_mobilelabel_19">
+                                        Last Name:
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_15 -->
+                            <td id="MyProfile_mobilegridcell_15" name="mobilegridcell_15" class="MyProfile_mobilegridcell_15"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- last_name -->
+                                    <div name="last_name" id="MyProfile_last_name" dsid="last_name" data-role="appery_label"
+                                    class="MyProfile_last_name">
+                                        Last Name
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="MyProfile_mobilegrid_3_row_2">
+                            <!-- mobilegridcell_8 -->
+                            <td id="MyProfile_mobilegridcell_8" name="mobilegridcell_8" class="MyProfile_mobilegridcell_8"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_20 -->
+                                    <div name="mobilelabel_20" id="MyProfile_mobilelabel_20" dsid="mobilelabel_20" data-role="appery_label"
+                                    class="MyProfile_mobilelabel_20">
+                                        Email:
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_16 -->
+                            <td id="MyProfile_mobilegridcell_16" name="mobilegridcell_16" class="MyProfile_mobilegridcell_16"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- email -->
+                                    <div name="email" id="MyProfile_email" dsid="email" data-role="appery_label" class="MyProfile_email">
+                                        Email
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="MyProfile_mobilegrid_3_row_3">
+                            <!-- mobilegridcell_10 -->
+                            <td id="MyProfile_mobilegridcell_10" name="mobilegridcell_10" class="MyProfile_mobilegridcell_10"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- contact_id -->
+                                    <div name="contact_id" id="MyProfile_contact_id" dsid="contact_id" data-role="appery_label"
+                                    class="MyProfile_contact_id">
+                                        Contact ID
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_17 -->
+                            <td id="MyProfile_mobilegridcell_17" name="mobilegridcell_17" class="MyProfile_mobilegridcell_17"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="MyProfile_mobilegrid_3_row_4">
+                            <!-- mobilegridcell_12 -->
+                            <td id="MyProfile_mobilegridcell_12" name="mobilegridcell_12" class="MyProfile_mobilegridcell_12"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_18 -->
+                            <td id="MyProfile_mobilegridcell_18" name="mobilegridcell_18" class="MyProfile_mobilegridcell_18"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilelabel_34 -->
+                <div name="mobilelabel_34" id="MyProfile_mobilelabel_34" dsid="mobilelabel_34" data-role="appery_label"
+                class="MyProfile_mobilelabel_34">
+                    Event Offline Sync Settings
+                </div>
+                <!-- mobilegrid_35 -->
+                <div class="MyProfile_mobilegrid_35_wrapper" data-wrapper-for="mobilegrid_35">
+                    <table id="MyProfile_mobilegrid_35" class="MyProfile_mobilegrid_35" dsid="mobilegrid_35"
+                    name="mobilegrid_35" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="MyProfile_mobilegrid_35_row_0">
+                            <!-- mobilegridcell_36 -->
+                            <td id="MyProfile_mobilegridcell_36" name="mobilegridcell_36" class="MyProfile_mobilegridcell_36"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_41 -->
+                                    <div name="mobilelabel_41" id="MyProfile_mobilelabel_41" dsid="mobilelabel_41" data-role="appery_label"
+                                    class="MyProfile_mobilelabel_41">
+                                        Offline Sync?
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_37 -->
+                            <td id="MyProfile_mobilegridcell_37" name="mobilegridcell_37" class="MyProfile_mobilegridcell_37"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- tog_offline_sync_enable -->
+                                    <div data-role="fieldcontain" class="MyProfile_tog_offline_sync_enable ">
+                                        <select data-role="flipswitch" name="tog_offline_sync_enable" id="MyProfile_tog_offline_sync_enable"
+                                        dsid="tog_offline_sync_enable" data-theme="b" data-track-theme="b">
+                                            <option value="off">
+                                                Off
+                                            </option>
+                                            <option value="on" selected="">
+                                                On
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="MyProfile_mobilegrid_35_row_1">
+                            <!-- mobilegridcell_38 -->
+                            <td id="MyProfile_mobilegridcell_38" name="mobilegridcell_38" class="MyProfile_mobilegridcell_38"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_39 -->
+                            <td id="MyProfile_mobilegridcell_39" name="mobilegridcell_39" class="MyProfile_mobilegridcell_39"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilelabel_21 -->
+                <div name="mobilelabel_21" id="MyProfile_mobilelabel_21" dsid="mobilelabel_21" data-role="appery_label"
+                class="MyProfile_mobilelabel_21">
+                    Event Auto-logging Settings
+                </div>
+                <!-- mobilegrid_22 -->
+                <div class="MyProfile_mobilegrid_22_wrapper" data-wrapper-for="mobilegrid_22">
+                    <table id="MyProfile_mobilegrid_22" class="MyProfile_mobilegrid_22" dsid="mobilegrid_22"
+                    name="mobilegrid_22" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="MyProfile_mobilegrid_22_row_0">
+                            <!-- mobilegridcell_23 -->
+                            <td id="MyProfile_mobilegridcell_23" name="mobilegridcell_23" class="MyProfile_mobilegridcell_23"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lbl_auto_logging_enabled -->
+                                    <div name="lbl_auto_logging_enabled" id="MyProfile_lbl_auto_logging_enabled" dsid="lbl_auto_logging_enabled"
+                                    data-role="appery_label" class="MyProfile_lbl_auto_logging_enabled">
+                                        Logging
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_24 -->
+                            <td id="MyProfile_mobilegridcell_24" name="mobilegridcell_24" class="MyProfile_mobilegridcell_24"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- auto_logging_enabled -->
+                                    <div data-role="fieldcontain" class="MyProfile_auto_logging_enabled ">
+                                        <select data-role="flipswitch" name="auto_logging_enabled" id="MyProfile_auto_logging_enabled"
+                                        dsid="auto_logging_enabled" data-theme="b" data-track-theme="b">
+                                            <option value="off">
+                                                Off
+                                            </option>
+                                            <option value="on" selected="">
+                                                On
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="MyProfile_mobilegrid_22_row_1">
+                            <!-- mobilegridcell_25 -->
+                            <td id="MyProfile_mobilegridcell_25" name="mobilegridcell_25" class="MyProfile_mobilegridcell_25"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lbl_auto_logging_interval -->
+                                    <div name="lbl_auto_logging_interval" id="MyProfile_lbl_auto_logging_interval" dsid="lbl_auto_logging_interval"
+                                    data-role="appery_label" class="MyProfile_lbl_auto_logging_interval">
+                                        Interval
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_26 -->
+                            <td id="MyProfile_mobilegridcell_26" name="mobilegridcell_26" class="MyProfile_mobilegridcell_26"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- auto_logging_interval -->
+                                    <div data-role="fieldcontain" class="MyProfile_auto_logging_interval ">
+                                        <select name="auto_logging_interval" id="MyProfile_auto_logging_interval" dsid="auto_logging_interval"
+                                        data-theme="b" data-role="appery_selectmenu" data-inline="false" data-mini="true"
+                                        data-icon="arrow-d" data-iconpos="right" data-native-menu="false" tabindex="4" appery-class="MyProfile_auto_logging_interval">
+                                            <option id="MyProfile_auto_logging_interval-0" value="5" reRender="auto_logging_interval"
+                                            dsid="auto_logging_interval-0" selected="selected">
+                                                5 seconds
+                                            </option>
+                                            <option id="MyProfile_auto_logging_interval-1" value="10" reRender="auto_logging_interval"
+                                            dsid="auto_logging_interval-1">
+                                                10 seconds
+                                            </option>
+                                            <option id="MyProfile_auto_logging_interval-2" value="30" reRender="auto_logging_interval"
+                                            dsid="auto_logging_interval-2">
+                                                30 seconds
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="MyProfile_mobilegrid_22_row_2">
+                            <!-- mobilegridcell_30 -->
+                            <td id="MyProfile_mobilegridcell_30" name="mobilegridcell_30" class="MyProfile_mobilegridcell_30"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lbl_auto_logging_distance -->
+                                    <div name="lbl_auto_logging_distance" id="MyProfile_lbl_auto_logging_distance" dsid="lbl_auto_logging_distance"
+                                    data-role="appery_label" class="MyProfile_lbl_auto_logging_distance">
+                                        Distance
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_31 -->
+                            <td id="MyProfile_mobilegridcell_31" name="mobilegridcell_31" class="MyProfile_mobilegridcell_31"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- auto_logging_distance -->
+                                    <div data-role="fieldcontain" class="MyProfile_auto_logging_distance ">
+                                        <select name="auto_logging_distance" id="MyProfile_auto_logging_distance" dsid="auto_logging_distance"
+                                        data-theme="b" data-role="appery_selectmenu" data-inline="false" data-mini="true"
+                                        data-icon="arrow-d" data-iconpos="right" data-native-menu="false" tabindex="5" appery-class="MyProfile_auto_logging_distance">
+                                            <option id="MyProfile_auto_logging_distance-0" value="10" reRender="auto_logging_distance"
+                                            dsid="auto_logging_distance-0" selected="selected">
+                                                10 metres
+                                            </option>
+                                            <option id="MyProfile_auto_logging_distance-1" value="50" reRender="auto_logging_distance"
+                                            dsid="auto_logging_distance-1">
+                                                50 metres
+                                            </option>
+                                            <option id="MyProfile_auto_logging_distance-2" value="100" reRender="auto_logging_distance"
+                                            dsid="auto_logging_distance-2">
+                                                100 metres
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="MyProfile_mobilegrid_22_row_3">
+                            <!-- mobilegridcell_32 -->
+                            <td id="MyProfile_mobilegridcell_32" name="mobilegridcell_32" class="MyProfile_mobilegridcell_32"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_33 -->
+                            <td id="MyProfile_mobilegridcell_33" name="mobilegridcell_33" class="MyProfile_mobilegridcell_33"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="MyProfile_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="MyProfile_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

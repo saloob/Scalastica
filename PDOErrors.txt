@@ -1,0 +1,36 @@
+exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /var/www/vhosts/scalastica.com/httpdocs/funky-db.php:32
+Stack trace:
+#0 /var/www/vhosts/scalastica.com/httpdocs/funky-db.php(32): PDO->__construct('mysql:host=; db...', '', '')
+#1 /var/www/vhosts/scalastica.com/httpdocs/common-new.php(118): DB_Sql->__construct()
+#2 /var/www/vhosts/scalastica.com/httpdocs/Mobile.php(10): include('/var/www/vhosts...')
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /var/www/vhosts/scalastica.com/httpdocs/funky-db.php:35
+Stack trace:
+#0 /var/www/vhosts/scalastica.com/httpdocs/funky-db.php(35): PDO->__construct('mysql:host=; db...', '', '')
+#1 /var/www/vhosts/scalastica.com/httpdocs/common-new.php(118): DB_Sql->__construct()
+#2 /var/www/vhosts/scalastica.com/httpdocs/Mobile.php(10): include('/var/www/vhosts...')
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /var/www/vhosts/scalastica.com/httpdocs/funky-db.php:35
+Stack trace:
+#0 /var/www/vhosts/scalastica.com/httpdocs/funky-db.php(35): PDO->__construct('mysql:host=; db...', '', '')
+#1 /var/www/vhosts/scalastica.com/httpdocs/common-new.php(118): DB_Sql->__construct()
+#2 /var/www/vhosts/scalastica.com/httpdocs/Mobile.php(10): include('/var/www/vhosts...')
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /var/www/vhosts/scalastica.com/httpdocs/funky-db.php:35
+Stack trace:
+#0 /var/www/vhosts/scalastica.com/httpdocs/funky-db.php(35): PDO->__construct('mysql:host=; db...', '', '')
+#1 /var/www/vhosts/scalastica.com/httpdocs/common-new.php(118): DB_Sql->__construct()
+#2 /var/www/vhosts/scalastica.com/httpdocs/Mobile.php(10): include('/var/www/vhosts...')
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /var/www/vhosts/scalastica.com/httpdocs/funky-db.php:35
+Stack trace:
+#0 /var/www/vhosts/scalastica.com/httpdocs/funky-db.php(35): PDO->__construct('mysql:host=; db...', '', '')
+#1 /var/www/vhosts/scalastica.com/httpdocs/common-new.php(118): DB_Sql->__construct()
+#2 /var/www/vhosts/scalastica.com/httpdocs/Mobile.php(10): include('/var/www/vhosts...')
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /var/www/vhosts/scalastica.com/httpdocs/funky-db.php:44
+Stack trace:
+#0 /var/www/vhosts/scalastica.com/httpdocs/funky-db.php(44): PDO->__construct('mysql:host=; db...', '', '')
+#1 /var/www/vhosts/scalastica.com/httpdocs/common-new.php(118): DB_Sql->__construct()
+#2 /var/www/vhosts/scalastica.com/httpdocs/Mobile.php(10): include('/var/www/vhosts...')
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /var/www/vhosts/scalastica.com/httpdocs/funky-db.php:44
+Stack trace:
+#0 /var/www/vhosts/scalastica.com/httpdocs/funky-db.php(44): PDO->__construct('mysql:host=; db...', '', '')
+#1 /var/www/vhosts/scalastica.com/httpdocs/common-new.php(118): DB_Sql->__construct()
+#2 /var/www/vhosts/scalastica.com/httpdocs/Mobile.php(10): include('/var/www/vhosts...')
+#3 {main}

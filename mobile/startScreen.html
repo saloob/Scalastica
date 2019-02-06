@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            startScreen
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/dendrite/dendrite.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/login.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/Facebook_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/External_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/scalastica.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="startScreen" id="startScreen"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="startScreen_mobileheader" class="startScreen_mobileheader">
+                <h1 dsid="mobileheader">
+                    Events
+                </h1>
+                <!-- navi_panel_button --><!--
+                --><a data-role="button" name="navi_panel_button" dsid="navi_panel_button" class="startScreen_navi_panel_button ui-btn-left"
+                style='min-height:16px; ' id="startScreen_navi_panel_button" data-corners="true"
+                data-icon="gear" data-iconpos="left" x-apple-data-detectors="false" data-inline='true'
+                data-mini='true' data-theme="b" tabindex="13">
+                &nbsp;
+                </a><!--
+                --><!-- btn_logout --><!--
+                --><a data-role="button" name="btn_logout" dsid="btn_logout" class="startScreen_btn_logout ui-btn-right"
+                id="startScreen_btn_logout" data-corners="true" data-icon="power" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="b"
+                tabindex="18">
+                Logout
+                </a><!--
+                --><!-- mobilenavbar_34 -->
+                <div data-role="navbar" id="startScreen_mobilenavbar_34" name="mobilenavbar_34"
+                dsid="mobilenavbar_34" class="startScreen_mobilenavbar_34" data-theme="b" style="position: relative;">
+                    <ul>
+                        <!-- top_menu_register -->
+                        <li>
+                            <a data-theme="b" data-icon="user" id="startScreen_top_menu_register" dsid="top_menu_register"
+                            name="top_menu_register">
+                            Register
+                            </a>
+                        </li>
+                        <!-- top_menu_public_events -->
+                        <li>
+                            <a data-theme="b" class="ui-btn-active ui-state-persist" data-icon="eye" id="startScreen_top_menu_public_events"
+                            dsid="top_menu_public_events" name="top_menu_public_events">
+                            Public Events
+                            </a>
+                        </li>
+                        <!-- btn_add_event_new -->
+                        <li>
+                            <a data-theme="b" data-icon="plus" id="startScreen_btn_add_event_new" dsid="btn_add_event_new"
+                            name="btn_add_event_new">
+                            New Event
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="startScreen_mobilecontainer" name="mobilecontainer"
+            class="startScreen_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="startScreen.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="startScreen.js">
+                </script>
+                <!-- email -->
+                <div data-role="fieldcontain" class="startScreen_email ">
+                    <input type="email" name="email" dsid="email" value="" placeholder="Email" id="startScreen_email"
+                    tabindex="4" multiple data-theme="b" class="startScreen_email" />
+                </div>
+                <!-- password -->
+                <div data-role="fieldcontain" class="startScreen_password ">
+                    <input type="password" name="password" dsid="password" value="" placeholder="Password"
+                    id="startScreen_password" tabindex="5" multiple data-theme="b" class="startScreen_password"
+                    />
+                </div>
+                <!-- sync_grid -->
+                <div class="startScreen_sync_grid_wrapper" data-wrapper-for="sync_grid">
+                    <table id="startScreen_sync_grid" class="startScreen_sync_grid" dsid="sync_grid"
+                    name="sync_grid" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="startScreen_sync_grid_row_0">
+                            <!-- mobilegridcell_155 -->
+                            <td id="startScreen_mobilegridcell_155" name="mobilegridcell_155" class="startScreen_mobilegridcell_155"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_160 -->
+                                    <div name="mobilelabel_160" id="startScreen_mobilelabel_160" dsid="mobilelabel_160"
+                                    data-role="appery_label" class="startScreen_mobilelabel_160">
+                                        Offline Sync?
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_156 -->
+                            <td id="startScreen_mobilegridcell_156" name="mobilegridcell_156" class="startScreen_mobilegridcell_156"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- tog_offline_sync_enable -->
+                                    <div data-role="fieldcontain" class="startScreen_tog_offline_sync_enable ">
+                                        <select data-role="flipswitch" name="tog_offline_sync_enable" id="startScreen_tog_offline_sync_enable"
+                                        dsid="tog_offline_sync_enable" data-theme="b" data-track-theme="b">
+                                            <option value="off">
+                                                Off
+                                            </option>
+                                            <option value="on" selected="">
+                                                On
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- button_login --><!--
+                --><a data-role="button" name="button_login" dsid="button_login" class="startScreen_button_login"
+                id="startScreen_button_login" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="b" tabindex="3">
+                Sign in with Email &amp; Pass
+                </a><!--
+                --><!-- rest_response -->
+                <div name="rest_response" id="startScreen_rest_response" dsid="rest_response" data-role="appery_label"
+                class="startScreen_rest_response">
+                    Response
+                </div>
+                <!-- login_message -->
+                <div name="login_message" id="startScreen_login_message" dsid="login_message" data-role="appery_label"
+                class="startScreen_login_message">
+                </div>
+                <!-- btn_facebook_auth --><!--
+                --><a data-role="button" name="btn_facebook_auth" dsid="btn_facebook_auth" class="startScreen_btn_facebook_auth"
+                id="startScreen_btn_facebook_auth" data-corners="true" data-icon="action" data-iconpos="right"
+                x-apple-data-detectors="false" data-mini="false" data-theme="b" tabindex="14">
+                Sign in with Facebook
+                </a><!--
+                --><!-- btn_google_auth --><!--
+                --><a data-role="button" name="btn_google_auth" dsid="btn_google_auth" class="startScreen_btn_google_auth"
+                id="startScreen_btn_google_auth" data-corners="true" data-icon="action" data-iconpos="right"
+                x-apple-data-detectors="false" data-mini="false" data-theme="b" tabindex="16">
+                Sign in with Google
+                </a><!--
+                --><!-- btn_linkedin_auth --><!--
+                --><a data-role="button" name="btn_linkedin_auth" dsid="btn_linkedin_auth" class="startScreen_btn_linkedin_auth"
+                id="startScreen_btn_linkedin_auth" data-corners="true" data-icon="action" data-iconpos="right"
+                x-apple-data-detectors="false" data-mini="false" data-theme="b" tabindex="17">
+                Sign in with LinkedIn
+                </a><!--
+                --><!-- mobilelabel_8 -->
+                <div name="mobilelabel_8" id="startScreen_mobilelabel_8" dsid="mobilelabel_8" data-role="appery_label"
+                class="startScreen_mobilelabel_8">
+                    Search Public Events
+                </div>
+                <!-- keyword -->
+                <div data-role="fieldcontain" class="startScreen_keyword ">
+                    <input type="text" name="keyword" dsid="keyword" value="" placeholder="Keyword"
+                    id="startScreen_keyword" tabindex="10" multiple data-theme="b" class="startScreen_keyword"
+                    />
+                </div>
+                <!-- start -->
+                <div data-role="fieldcontain" class="startScreen_start ">
+                    <input type="text" name="start" dsid="start" value="" placeholder="Start Date" id="startScreen_start"
+                    tabindex="9" multiple data-theme="b" class="startScreen_start" />
+                </div>
+                <!-- search_button --><!--
+                --><a data-role="button" name="search_button" dsid="search_button" class="startScreen_search_button"
+                id="startScreen_search_button" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="true" data-theme="b" tabindex="8">
+                Search
+                </a><!--
+                --><!-- EventGrid_123 -->
+                <div class="startScreen_EventGrid_123_wrapper" data-wrapper-for="EventGrid_123">
+                    <table id="startScreen_EventGrid_123" class="startScreen_EventGrid_123" dsid="EventGrid_123"
+                    name="EventGrid_123" cellpadding=0 cellspacing=0>
+                        <col style="width:63px;" />
+                        <tr class="startScreen_EventGrid_123_row_0">
+                            <!-- mobilegridcell_99_124 -->
+                            <td id="startScreen_mobilegridcell_99_124" name="mobilegridcell_99_124" class="startScreen_mobilegridcell_99_124"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- event_name_125 --><!--
+                                    --><a data-role="button" name="event_name_125" dsid="event_name_125" class="startScreen_event_name_125"
+                                    id="startScreen_event_name_125" data-corners="true" data-icon="arrow-r" data-iconpos="right"
+                                    x-apple-data-detectors="false" data-mini="true" data-theme="b" tabindex="15">
+                                    Event Name
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="startScreen_EventGrid_123_row_1">
+                            <!-- mobilegridcell_101_126 -->
+                            <td id="startScreen_mobilegridcell_101_126" name="mobilegridcell_101_126" class="startScreen_mobilegridcell_101_126"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilegrid_151 -->
+                                    <div class="startScreen_mobilegrid_151_wrapper" data-wrapper-for="mobilegrid_151">
+                                        <table id="startScreen_mobilegrid_151" class="startScreen_mobilegrid_151" dsid="mobilegrid_151"
+                                        name="mobilegrid_151" cellpadding=0 cellspacing=0>
+                                            <col style="width:69px;" />
+                                            <col style="width:auto;" />
+                                            <tr class="startScreen_mobilegrid_151_row_0">
+                                                <!-- mobilegridcell_152 -->
+                                                <td id="startScreen_mobilegridcell_152" name="mobilegridcell_152" class="startScreen_mobilegridcell_152"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                        <!-- event_image_127 -->
+                                                        <img class="startScreen_event_image_127" src="files/resources/image/no-image.jpg"
+                                                        id="startScreen_event_image_127" dsid="event_image_127" name="event_image_127" />
+                                                    </div>
+                                                </td>
+                                                <!-- mobilegridcell_153 -->
+                                                <td id="startScreen_mobilegridcell_153" name="mobilegridcell_153" class="startScreen_mobilegridcell_153"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                        <!-- event_catgeory_129 -->
+                                                        <div name="event_catgeory_129" id="startScreen_event_catgeory_129" dsid="event_catgeory_129"
+                                                        data-role="appery_label" class="startScreen_event_catgeory_129">
+                                                            Category
+                                                        </div>
+                                                        <!-- start_date_131 -->
+                                                        <div name="start_date_131" id="startScreen_start_date_131" dsid="start_date_131"
+                                                        data-role="appery_label" class="startScreen_start_date_131">
+                                                            Start Date
+                                                        </div>
+                                                        <!-- end_date_133 -->
+                                                        <div name="end_date_133" id="startScreen_end_date_133" dsid="end_date_133" data-role="appery_label"
+                                                        class="startScreen_end_date_133">
+                                                            End Date
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="startScreen_EventGrid_123_row_2">
+                            <!-- mobilegridcell_103_128 -->
+                            <td id="startScreen_mobilegridcell_103_128" name="mobilegridcell_103_128" class="startScreen_mobilegridcell_103_128"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- event_latitude_135 -->
+                                    <div name="event_latitude_135" id="startScreen_event_latitude_135" dsid="event_latitude_135"
+                                    data-role="appery_label" class="startScreen_event_latitude_135">
+                                        Latitude
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="startScreen_EventGrid_123_row_3">
+                            <!-- mobilegridcell_104_130 -->
+                            <td id="startScreen_mobilegridcell_104_130" name="mobilegridcell_104_130" class="startScreen_mobilegridcell_104_130"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- event_longitude_137 -->
+                                    <div name="event_longitude_137" id="startScreen_event_longitude_137" dsid="event_longitude_137"
+                                    data-role="appery_label" class="startScreen_event_longitude_137">
+                                        Longitude
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="startScreen_EventGrid_123_row_4">
+                            <!-- mobilegridcell_105_132 -->
+                            <td id="startScreen_mobilegridcell_105_132" name="mobilegridcell_105_132" class="startScreen_mobilegridcell_105_132"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- event_id_139 -->
+                                    <div name="event_id_139" id="startScreen_event_id_139" dsid="event_id_139" data-role="appery_label"
+                                    class="startScreen_event_id_139">
+                                        ID
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="startScreen_EventGrid_123_row_5">
+                            <!-- mobilegridcell_106_134 -->
+                            <td id="startScreen_mobilegridcell_106_134" name="mobilegridcell_106_134" class="startScreen_mobilegridcell_106_134"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- image_141 -->
+                                    <div name="image_141" id="startScreen_image_141" dsid="image_141" data-role="appery_label"
+                                    class="startScreen_image_141">
+                                        Image
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="startScreen_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="startScreen_mobilefooter" data-theme="b">
+            </div>
+            <!-- navi_panel -->
+            <div data-role="panel" tabindex="-1" data-position="left" data-display="reveal"
+            id="startScreen_navi_panel" class="startScreen_navi_panel" name="navi_panel" dsid="navi_panel"
+            data-theme="b">
+                <!-- navi_panel_list -->
+                <ul data-role="listview" id="startScreen_navi_panel_list" class="startScreen_navi_panel_list"
+                name="navi_panel_list" dsid="navi_panel_list" data-inset="true" data-theme="b" data-divider-theme="b"
+                data-count-theme="b" style="" data-split-icon="carat-r">
+                    <!-- navi_panel_list_details -->
+                    <li id="startScreen_navi_panel_list_details" data-role="list-divider" name="navi_panel_list_details"
+                    dsid="navi_panel_list_details" class="startScreen_navi_panel_list_details">
+                        <h3>
+                            My Account
+                        </h3>
+                    </li>
+                    <!-- navi_panel_list_personal -->
+                    <li class="startScreen_navi_panel_list_personal" data-icon="carat-r">
+                        <a id="startScreen_navi_panel_list_personal" name="navi_panel_list_personal" dsid="navi_panel_list_personal"
+                        tabindex="12" class="startScreen_navi_panel_list_personal">
+                        <h3>Personal Info</h3>
+                        </a>
+                    </li>
+                    <!-- btn_facebook -->
+                    <li class="startScreen_btn_facebook" data-icon="action">
+                        <a id="startScreen_btn_facebook" name="btn_facebook" dsid="btn_facebook" tabindex="12"
+                        class="startScreen_btn_facebook">
+                        <h3>Sync Facebook</h3>
+                        </a>
+                    </li>
+                    <!-- btn_google -->
+                    <li class="startScreen_btn_google" data-icon="action">
+                        <a id="startScreen_btn_google" name="btn_google" dsid="btn_google" tabindex="12"
+                        class="startScreen_btn_google">
+                        <h3>Sync Google</h3>
+                        </a>
+                    </li>
+                    <!-- btn_linkedin -->
+                    <li class="startScreen_btn_linkedin" data-icon="action">
+                        <a id="startScreen_btn_linkedin" name="btn_linkedin" dsid="btn_linkedin" tabindex="12"
+                        class="startScreen_btn_linkedin">
+                        <h3>Sync LinkedIn</h3>
+                        </a>
+                    </li>
+                    <!-- navi_panel_list_myevents -->
+                    <li class="startScreen_navi_panel_list_myevents" data-icon="carat-r">
+                        <a id="startScreen_navi_panel_list_myevents" name="navi_panel_list_myevents" dsid="navi_panel_list_myevents"
+                        tabindex="12" class="startScreen_navi_panel_list_myevents">
+                        <h3>View my events</h3>
+                        </a>
+                    </li>
+                    <!-- navi_panel_list_wellbeing -->
+                    <li class="startScreen_navi_panel_list_wellbeing" data-icon="carat-r">
+                        <a id="startScreen_navi_panel_list_wellbeing" name="navi_panel_list_wellbeing" dsid="navi_panel_list_wellbeing"
+                        tabindex="12" class="startScreen_navi_panel_list_wellbeing">
+                        <h3>View my Well-being</h3>
+                        </a>
+                    </li>
+                    <!-- navi_panel_list_social -->
+                    <li class="startScreen_navi_panel_list_social" data-icon="carat-r">
+                        <a id="startScreen_navi_panel_list_social" name="navi_panel_list_social" dsid="navi_panel_list_social"
+                        tabindex="12" class="startScreen_navi_panel_list_social">
+                        <h3>Social Networking</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_96 -->
+                    <li class="startScreen_mobilelistitem_96" data-icon="carat-r">
+                        <a id="startScreen_mobilelistitem_96" name="mobilelistitem_96" dsid="mobilelistitem_96"
+                        tabindex="12" class="startScreen_mobilelistitem_96">
+                        <h3>Hirorin's Timer</h3>
+                        </a>
+                    </li>
+                    <!-- navi_panel_list_contacts_sync -->
+                    <li class="startScreen_navi_panel_list_contacts_sync" data-icon="carat-r">
+                        <a id="startScreen_navi_panel_list_contacts_sync" name="navi_panel_list_contacts_sync"
+                        dsid="navi_panel_list_contacts_sync" tabindex="12" class="startScreen_navi_panel_list_contacts_sync">
+                        <h3>Sync Contacts</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>

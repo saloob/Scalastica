@@ -1,0 +1,429 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* navi_panel_button */
+#startScreen_navi_panel_button {
+
+}
+.ui-btn.startScreen_navi_panel_button {
+
+}
+/* btn_logout */
+#startScreen_btn_logout {
+
+}
+.ui-btn.startScreen_btn_logout {
+
+}
+/* mobilenavbar_34 */
+.startScreen_mobilenavbar_34 {
+
+}
+.startScreen_mobilenavbar_34 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .startScreen_mobilenavbar_34 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .startScreen_mobilenavbar_34 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.startScreen_mobilenavbar_34 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}
+/* mobilecontainer */
+.ui-content.startScreen_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* email */
+.startScreen_email {
+	margin: 4px 0px 4px 0px;
+}
+/* password */
+.startScreen_password {
+	margin: 4px 0px 4px 0px;
+}
+/* sync_grid */
+.startScreen_sync_grid {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.startScreen_sync_grid_wrapper {
+
+}
+.startScreen_sync_grid > tr > td {
+	vertical-align: top;
+}
+.startScreen_sync_grid_row_0, .startScreen_sync_grid_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_155 */
+.startScreen_mobilegridcell_155 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_155 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_160 */
+.startScreen_mobilelabel_160 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_156 */
+.startScreen_mobilegridcell_156 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_156 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* tog_offline_sync_enable */
+.startScreen_tog_offline_sync_enable {
+	margin: 4px 0px 4px 0px;
+}
+/* button_login */
+#startScreen_button_login {
+
+}
+.ui-btn.startScreen_button_login {
+	margin: 4px 5px 4px 5px;
+}
+/* rest_response */
+.startScreen_rest_response {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* login_message */
+.startScreen_login_message {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* btn_facebook_auth */
+#startScreen_btn_facebook_auth {
+
+}
+.ui-btn.startScreen_btn_facebook_auth {
+	margin: 4px 5px 4px 5px;
+}
+/* btn_google_auth */
+#startScreen_btn_google_auth {
+
+}
+.ui-btn.startScreen_btn_google_auth {
+	margin: 4px 5px 4px 5px;
+}
+/* btn_linkedin_auth */
+#startScreen_btn_linkedin_auth {
+
+}
+.ui-btn.startScreen_btn_linkedin_auth {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilelabel_8 */
+.startScreen_mobilelabel_8 {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* keyword */
+.startScreen_keyword {
+	margin: 4px 0px 4px 0px;
+}
+/* start */
+.startScreen_start {
+	margin: 4px 0px 4px 0px;
+}
+/* search_button */
+#startScreen_search_button {
+
+}
+.ui-btn.startScreen_search_button {
+	margin: 4px 5px 4px 5px;
+}
+/* EventGrid_123 */
+.startScreen_EventGrid_123 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.startScreen_EventGrid_123_wrapper {
+
+}
+.startScreen_EventGrid_123 > tr > td {
+	vertical-align: top;
+}
+.startScreen_EventGrid_123_row_0, .startScreen_EventGrid_123_row_0 > td {
+	height: 30px
+}
+.startScreen_EventGrid_123_row_1, .startScreen_EventGrid_123_row_1 > td {
+	height: 30px
+}
+.startScreen_EventGrid_123_row_2, .startScreen_EventGrid_123_row_2 > td {
+	height: 30px
+}
+.startScreen_EventGrid_123_row_3, .startScreen_EventGrid_123_row_3 > td {
+	height: 30px
+}
+.startScreen_EventGrid_123_row_4, .startScreen_EventGrid_123_row_4 > td {
+	height: 30px
+}
+.startScreen_EventGrid_123_row_5, .startScreen_EventGrid_123_row_5 > td {
+	height: 30px
+}
+/* mobilegridcell_99_124 */
+.startScreen_mobilegridcell_99_124 {
+	height:30px !important;
+	width:59px;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_99_124 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* event_name_125 */
+#startScreen_event_name_125 {
+
+}
+.ui-btn.startScreen_event_name_125 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilegridcell_101_126 */
+.startScreen_mobilegridcell_101_126 {
+	height:30px !important;
+	width:59px;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_101_126 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegrid_151 */
+.startScreen_mobilegrid_151 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.startScreen_mobilegrid_151_wrapper {
+
+}
+.startScreen_mobilegrid_151 > tr > td {
+	vertical-align: top;
+}
+.startScreen_mobilegrid_151_row_0, .startScreen_mobilegrid_151_row_0 > td {
+	height: 10px
+}
+/* mobilegridcell_152 */
+.startScreen_mobilegridcell_152 {
+	height:10px !important;
+	width:65px;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_152 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* event_image_127 */
+.startScreen_event_image_127 {
+	margin: 4px 0px 4px 0px;
+	width: 50px; height: 50px;
+	display: block;
+}
+/* mobilegridcell_153 */
+.startScreen_mobilegridcell_153 {
+	height:10px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_153 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* event_catgeory_129 */
+.startScreen_event_catgeory_129 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* start_date_131 */
+.startScreen_start_date_131 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* end_date_133 */
+.startScreen_end_date_133 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_103_128 */
+.startScreen_mobilegridcell_103_128 {
+	height:30px !important;
+	width:59px;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_103_128 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* event_latitude_135 */
+.startScreen_event_latitude_135 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_104_130 */
+.startScreen_mobilegridcell_104_130 {
+	height:30px !important;
+	width:59px;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_104_130 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* event_longitude_137 */
+.startScreen_event_longitude_137 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_105_132 */
+.startScreen_mobilegridcell_105_132 {
+	height:30px !important;
+	width:59px;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_105_132 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* event_id_139 */
+.startScreen_event_id_139 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_106_134 */
+.startScreen_mobilegridcell_106_134 {
+	height:30px !important;
+	width:59px;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_106_134 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* image_141 */
+.startScreen_image_141 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.startScreen_mobilefooter {
+	min-height:38px;
+}
+/* navi_panel */
+.startScreen_navi_panel .ui-panel-inner {
+	padding: 15px 15px 15px 15px;
+}
+.startScreen_navi_panel:focus {
+	outline: 0;
+}
+/* navi_panel_list */
+.ui-page .startScreen_navi_panel_list {
+	margin: 4px 0px 0px 0px;
+}
+/* navi_panel_list_details */
+/* mobilelistitembutton_83 */
+.startScreen_mobilelistitembutton_83 {
+
+}
+/* navi_panel_list_personal */
+/* mobilelistitembutton_85 */
+.startScreen_mobilelistitembutton_85 {
+
+}
+/* btn_facebook */
+/* mobilelistitembutton_115 */
+.startScreen_mobilelistitembutton_115 {
+
+}
+/* btn_google */
+/* mobilelistitembutton_117 */
+.startScreen_mobilelistitembutton_117 {
+
+}
+/* btn_linkedin */
+/* mobilelistitembutton_119 */
+.startScreen_mobilelistitembutton_119 {
+
+}
+/* navi_panel_list_myevents */
+/* mobilelistitembutton_87 */
+.startScreen_mobilelistitembutton_87 {
+
+}
+/* navi_panel_list_wellbeing */
+.ui-listview li.startScreen_navi_panel_list_wellbeing {
+	display: none;
+}
+/* mobilelistitembutton_89 */
+.startScreen_mobilelistitembutton_89 {
+
+}
+/* navi_panel_list_social */
+.ui-listview li.startScreen_navi_panel_list_social {
+	display: none;
+}
+/* mobilelistitembutton_91 */
+.startScreen_mobilelistitembutton_91 {
+
+}
+/* mobilelistitem_96 */
+.ui-listview li.startScreen_mobilelistitem_96 {
+	display: none;
+}
+/* mobilelistitembutton_97 */
+.startScreen_mobilelistitembutton_97 {
+
+}
+/* navi_panel_list_contacts_sync */
+/* mobilelistitembutton_95 */
+.startScreen_mobilelistitembutton_95 {
+
+}

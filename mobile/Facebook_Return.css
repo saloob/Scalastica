@@ -1,0 +1,61 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* btn_home */
+#Facebook_Return_btn_home {
+
+}
+.ui-btn.Facebook_Return_btn_home {
+
+}
+/* mobilecontainer */
+.ui-content.Facebook_Return_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* fb_token */
+.Facebook_Return_fb_token {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* sess_acc */
+.Facebook_Return_sess_acc {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* sess_con */
+.Facebook_Return_sess_con {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* api_message */
+.Facebook_Return_api_message {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* rest_response */
+.Facebook_Return_rest_response {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* fb_sess */
+.Facebook_Return_fb_sess {
+	margin: 4px 0px 4px 0px;
+	display: none;
+}
+/* mobilefooter */
+.Facebook_Return_mobilefooter {
+	min-height:38px;
+}

@@ -1,0 +1,93 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_9 */
+#AccountDetails_mobilebutton_9 {
+
+}
+.ui-btn.AccountDetails_mobilebutton_9 {
+
+}
+/* mobilecontainer */
+.ui-content.AccountDetails_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_2 */
+.AccountDetails_mobilegrid_2 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.AccountDetails_mobilegrid_2_wrapper {
+
+}
+.AccountDetails_mobilegrid_2 > tr > td {
+	vertical-align: top;
+}
+.AccountDetails_mobilegrid_2_row_0, .AccountDetails_mobilegrid_2_row_0 > td {
+	height: 30px
+}
+.AccountDetails_mobilegrid_2_row_1, .AccountDetails_mobilegrid_2_row_1 > td {
+	height: 30px
+}
+.AccountDetails_mobilegrid_2_row_2, .AccountDetails_mobilegrid_2_row_2 > td {
+	height: 30px
+}
+.AccountDetails_mobilegrid_2_row_3, .AccountDetails_mobilegrid_2_row_3 > td {
+	height: 30px
+}
+/* mobilegridcell_3 */
+.AccountDetails_mobilegridcell_3 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.AccountDetails_mobilegridcell_3 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* account_name */
+.AccountDetails_account_name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_5 */
+.AccountDetails_mobilegridcell_5 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.AccountDetails_mobilegridcell_5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_7 */
+.AccountDetails_mobilegridcell_7 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.AccountDetails_mobilegridcell_7 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_8 */
+.AccountDetails_mobilegridcell_8 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.AccountDetails_mobilegridcell_8 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilefooter */
+.AccountDetails_mobilefooter {
+	min-height:38px;
+}

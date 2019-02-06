@@ -1,0 +1,263 @@
+
+2013-05-20 14:15:01...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:15:03...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:15:05...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:15:08...Begin System Check Process *************
+2013-05-20 14:15:08...XML Parsing Support Found
+2013-05-20 14:15:08...MBString Support Found
+2013-05-20 14:15:08...ZIP Support Found
+2013-05-20 14:15:08.../custom directory and subdirectory check passed
+2013-05-20 14:15:08...cache directory and subdirectory check passed
+2013-05-20 14:15:08.../module  directory and subdirectory check passed
+2013-05-20 14:15:08.../upload directory check passed
+2013-05-20 14:15:08.../zip check passed
+2013-05-20 14:15:08...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:15:08...php.ini location found. /etc/php.ini
+2013-05-20 14:15:08...Outputting HTML for System check
+2013-05-20 14:15:08...No Errors were found *************
+2013-05-20 14:15:11...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:15:14...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:15:16...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:16:07...Begin DB Check Process *************
+2013-05-20 14:16:07...testing with mysql:mysqli
+2013-05-20 14:16:07...Basic form info is valid, continuing Process.
+2013-05-20 14:16:07...Testing user account...
+2013-05-20 14:16:07...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2013-05-20 14:16:07...Testing priviliged account...
+2013-05-20 14:16:07...Connection made using  host: 192.168.1.120, usr: scalastica_0001
+2013-05-20 14:16:07...DB not selected, will create scalastic_child_0001
+2013-05-20 14:16:07...ERROR:: Unable to check database version.
+2013-05-20 14:16:07...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2013-05-20 14:16:07..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2013-05-20 14:16:07..... Unable to check database version.
+2013-05-20 14:16:07...End DB Check Process *************
+2013-05-20 14:16:13...Begin DB Check Process *************
+2013-05-20 14:16:13...testing with mysql:mysqli
+2013-05-20 14:16:13...Basic form info is valid, continuing Process.
+2013-05-20 14:16:13...Testing user account...
+2013-05-20 14:16:13...Connection made using  host: 192.168.1.121, usr: scalastica_0001
+2013-05-20 14:16:13...Testing priviliged account...
+2013-05-20 14:16:13...Connection made using  host: 192.168.1.121, usr: scalastica_0001
+2013-05-20 14:16:13...ERROR:: The provided Database Name already exists.  You can<br>1.  hit the back button and choose a new database name <br>2.  click next and continue but all existing tables on this database will be dropped.  <strong>This means your tables and data will be blown away.</strong>
+2013-05-20 14:16:13...Passed DB install check
+2013-05-20 14:16:13...WARNING:: no errors detected, but DB tables will be dropped!, issuing warning to user
+2013-05-20 14:16:13...End DB Check Process *************
+2013-05-20 14:16:15...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:16:40...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:17:03...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:17:45...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:17:45...calling handleSugarConfig()
+2013-05-20 14:17:45...calling handleLog4Php()
+2013-05-20 14:17:45...calling handleHtaccess()
+2013-05-20 14:17:45...calling handleDbCharsetCollation()
+2013-05-20 14:17:51...looping through all the Beans and create their tables
+2013-05-20 14:17:51...processing table acl_actions
+2013-05-20 14:17:51...dropping table acl_actions
+2013-05-20 14:17:51...creating table acl_actions
+2013-05-20 14:17:51...creating Relationship Meta for ACLAction
+2013-05-20 14:17:51...processing table acl_roles
+2013-05-20 14:17:51...dropping table acl_roles
+2013-05-20 14:17:51...creating table acl_roles
+2013-05-20 14:17:51...creating Relationship Meta for ACLRole
+2013-05-20 14:17:51...processing table relationships
+2013-05-20 14:17:51...dropping table relationships
+2013-05-20 14:17:51...creating table relationships
+2013-05-20 14:17:51...creating Relationship Meta for Relationship
+2013-05-20 14:17:51...processing table leads
+2013-05-20 14:17:51...dropping table leads
+2013-05-20 14:17:51...creating table leads
+2013-05-20 14:17:51...creating Relationship Meta for Lead
+2013-05-20 14:17:51...processing table cases
+2013-05-20 14:17:51...dropping table cases
+2013-05-20 14:17:51...creating table cases
+2013-05-20 14:17:51...creating Relationship Meta for Case
+2013-05-20 14:17:51...processing table bugs
+2013-05-20 14:17:51...dropping table bugs
+2013-05-20 14:17:51...creating table bugs
+2013-05-20 14:17:51...creating Relationship Meta for Bug
+2013-05-20 14:17:51...processing table users
+2013-05-20 14:17:51...dropping table users
+2013-05-20 14:17:51...creating table users
+2013-05-20 14:17:51...creating Relationship Meta for User
+2013-05-20 14:17:51...processing table campaign_log
+2013-05-20 14:17:51...dropping table campaign_log
+2013-05-20 14:17:51...creating table campaign_log
+2013-05-20 14:17:51...creating Relationship Meta for CampaignLog
+2013-05-20 14:17:51...processing table project
+2013-05-20 14:17:51...dropping table project
+2013-05-20 14:17:51...creating table project
+2013-05-20 14:17:51...creating Relationship Meta for Project
+2013-05-20 14:17:51...processing table project_task
+2013-05-20 14:17:51...dropping table project_task
+2013-05-20 14:17:51...creating table project_task
+2013-05-20 14:17:51...creating Relationship Meta for ProjectTask
+2013-05-20 14:17:51...processing table campaigns
+2013-05-20 14:17:51...dropping table campaigns
+2013-05-20 14:17:51...creating table campaigns
+2013-05-20 14:17:51...creating Relationship Meta for Campaign
+2013-05-20 14:17:51...processing table prospect_lists
+2013-05-20 14:17:51...dropping table prospect_lists
+2013-05-20 14:17:51...creating table prospect_lists
+2013-05-20 14:17:51...creating Relationship Meta for ProspectList
+2013-05-20 14:17:51...processing table prospects
+2013-05-20 14:17:51...dropping table prospects
+2013-05-20 14:17:52...creating table prospects
+2013-05-20 14:17:52...creating Relationship Meta for Prospect
+2013-05-20 14:17:52...processing table email_marketing
+2013-05-20 14:17:52...dropping table email_marketing
+2013-05-20 14:17:52...creating table email_marketing
+2013-05-20 14:17:52...creating Relationship Meta for EmailMarketing
+2013-05-20 14:17:52...processing table campaign_trkrs
+2013-05-20 14:17:52...dropping table campaign_trkrs
+2013-05-20 14:17:52...creating table campaign_trkrs
+2013-05-20 14:17:52...creating Relationship Meta for CampaignTracker
+2013-05-20 14:17:52...processing table releases
+2013-05-20 14:17:52...dropping table releases
+2013-05-20 14:17:52...creating table releases
+2013-05-20 14:17:52...creating Relationship Meta for Release
+2013-05-20 14:17:52...processing table emailman
+2013-05-20 14:17:52...dropping table emailman
+2013-05-20 14:17:52...creating table emailman
+2013-05-20 14:17:52...creating Relationship Meta for EmailMan
+2013-05-20 14:17:52...processing table schedulers
+2013-05-20 14:17:52...dropping table schedulers
+2013-05-20 14:17:52...creating table schedulers
+2013-05-20 14:17:52...creating Relationship Meta for Scheduler
+2013-05-20 14:17:52...processing table job_queue
+2013-05-20 14:17:52...dropping table job_queue
+2013-05-20 14:17:52...creating table job_queue
+2013-05-20 14:17:52...creating Relationship Meta for SchedulersJob
+2013-05-20 14:17:52...processing table contacts
+2013-05-20 14:17:52...dropping table contacts
+2013-05-20 14:17:52...creating table contacts
+2013-05-20 14:17:52...creating Relationship Meta for Contact
+2013-05-20 14:17:52...processing table accounts
+2013-05-20 14:17:52...dropping table accounts
+2013-05-20 14:17:52...creating table accounts
+2013-05-20 14:17:52...creating Relationship Meta for Account
+2013-05-20 14:17:52...processing table opportunities
+2013-05-20 14:17:52...dropping table opportunities
+2013-05-20 14:17:52...creating table opportunities
+2013-05-20 14:17:52...creating Relationship Meta for Opportunity
+2013-05-20 14:17:52...processing table email_templates
+2013-05-20 14:17:52...dropping table email_templates
+2013-05-20 14:17:52...creating table email_templates
+2013-05-20 14:17:52...creating Relationship Meta for EmailTemplate
+2013-05-20 14:17:52...processing table notes
+2013-05-20 14:17:52...dropping table notes
+2013-05-20 14:17:52...creating table notes
+2013-05-20 14:17:52...creating Relationship Meta for Note
+2013-05-20 14:17:52...processing table calls
+2013-05-20 14:17:52...dropping table calls
+2013-05-20 14:17:52...creating table calls
+2013-05-20 14:17:52...creating Relationship Meta for Call
+2013-05-20 14:17:52...processing table emails
+2013-05-20 14:17:52...dropping table emails
+2013-05-20 14:17:52...creating table emails
+2013-05-20 14:17:52...creating Relationship Meta for Email
+2013-05-20 14:17:52...processing table meetings
+2013-05-20 14:17:52...dropping table meetings
+2013-05-20 14:17:52...creating table meetings
+2013-05-20 14:17:52...creating Relationship Meta for Meeting
+2013-05-20 14:17:52...processing table tasks
+2013-05-20 14:17:52...dropping table tasks
+2013-05-20 14:17:53...creating table tasks
+2013-05-20 14:17:53...creating Relationship Meta for Task
+2013-05-20 14:17:53...processing table users
+2013-05-20 14:17:53...processing table users
+2013-05-20 14:17:53...processing table currencies
+2013-05-20 14:17:53...dropping table currencies
+2013-05-20 14:17:53...creating table currencies
+2013-05-20 14:17:53...creating Relationship Meta for Currency
+2013-05-20 14:17:53...processing table tracker
+2013-05-20 14:17:53...dropping table tracker
+2013-05-20 14:17:53...creating table tracker
+2013-05-20 14:17:53...creating Relationship Meta for Tracker
+2013-05-20 14:17:53...processing table import_maps
+2013-05-20 14:17:53...dropping table import_maps
+2013-05-20 14:17:53...creating table import_maps
+2013-05-20 14:17:53...creating Relationship Meta for ImportMap
+2013-05-20 14:17:53...processing table users_last_import
+2013-05-20 14:17:53...dropping table users_last_import
+2013-05-20 14:17:53...creating table users_last_import
+2013-05-20 14:17:53...creating Relationship Meta for UsersLastImport
+2013-05-20 14:17:53...processing table config
+2013-05-20 14:17:53...dropping table config
+2013-05-20 14:17:53...creating table config
+2013-05-20 14:17:53...creating Relationship Meta for Administration
+2013-05-20 14:17:53...processing table upgrade_history
+2013-05-20 14:17:53...dropping table upgrade_history
+2013-05-20 14:17:53...creating table upgrade_history
+2013-05-20 14:17:53...creating Relationship Meta for UpgradeHistory
+2013-05-20 14:17:53...processing table vcals
+2013-05-20 14:17:53...dropping table vcals
+2013-05-20 14:17:53...creating table vcals
+2013-05-20 14:17:53...creating Relationship Meta for vCal
+2013-05-20 14:17:53...processing table versions
+2013-05-20 14:17:53...dropping table versions
+2013-05-20 14:17:53...creating table versions
+2013-05-20 14:17:53...creating Relationship Meta for Version
+2013-05-20 14:17:53...processing table roles
+2013-05-20 14:17:53...dropping table roles
+2013-05-20 14:17:53...creating table roles
+2013-05-20 14:17:53...creating Relationship Meta for Role
+2013-05-20 14:17:53...processing table documents
+2013-05-20 14:17:53...dropping table documents
+2013-05-20 14:17:53...creating table documents
+2013-05-20 14:17:53...creating Relationship Meta for Document
+2013-05-20 14:17:53...processing table document_revisions
+2013-05-20 14:17:53...dropping table document_revisions
+2013-05-20 14:17:53...creating table document_revisions
+2013-05-20 14:17:53...creating Relationship Meta for DocumentRevision
+2013-05-20 14:17:53...processing table fields_meta_data
+2013-05-20 14:17:53...dropping table fields_meta_data
+2013-05-20 14:17:53...creating table fields_meta_data
+2013-05-20 14:17:53...creating Relationship Meta for FieldsMetaData
+2013-05-20 14:17:53...processing table inbound_email
+2013-05-20 14:17:53...dropping table inbound_email
+2013-05-20 14:17:53...creating table inbound_email
+2013-05-20 14:17:53...creating Relationship Meta for InboundEmail
+2013-05-20 14:17:53...processing table saved_search
+2013-05-20 14:17:53...dropping table saved_search
+2013-05-20 14:17:53...creating table saved_search
+2013-05-20 14:17:53...creating Relationship Meta for SavedSearch
+2013-05-20 14:17:53...processing table user_preferences
+2013-05-20 14:17:53...dropping table user_preferences
+2013-05-20 14:17:53...creating table user_preferences
+2013-05-20 14:17:53...creating Relationship Meta for UserPreference
+2013-05-20 14:17:53...processing table 
+2013-05-20 14:17:53...processing table email_addresses
+2013-05-20 14:17:53...dropping table email_addresses
+2013-05-20 14:17:53...creating table email_addresses
+2013-05-20 14:17:53...creating Relationship Meta for EmailAddress
+2013-05-20 14:17:53...processing table emails_text
+2013-05-20 14:17:53...dropping table emails_text
+2013-05-20 14:17:53...creating table emails_text
+2013-05-20 14:17:53...creating Relationship Meta for EmailText
+2013-05-20 14:17:53...processing table sugarfeed
+2013-05-20 14:17:53...dropping table sugarfeed
+2013-05-20 14:17:53...creating table sugarfeed
+2013-05-20 14:17:53...creating Relationship Meta for SugarFeed
+2013-05-20 14:17:53...processing table eapm
+2013-05-20 14:17:53...dropping table eapm
+2013-05-20 14:17:53...creating table eapm
+2013-05-20 14:17:53...creating Relationship Meta for EAPM
+2013-05-20 14:17:53...processing table oauth_consumer
+2013-05-20 14:17:53...dropping table oauth_consumer
+2013-05-20 14:17:53...creating table oauth_consumer
+2013-05-20 14:17:53...creating Relationship Meta for OAuthKey
+2013-05-20 14:17:53...processing table oauth_tokens
+2013-05-20 14:17:53...dropping table oauth_tokens
+2013-05-20 14:17:54...creating table oauth_tokens
+2013-05-20 14:17:54...creating Relationship Meta for OAuthToken
+2013-05-20 14:17:54...Begin creating Defaults
+2013-05-20 14:17:54...insert defaults into config table
+2013-05-20 14:17:54...Creating default users
+2013-05-20 14:17:54...Creating default scheduler jobs
+2013-05-20 14:17:54...Enable SugarFeeds
+2013-05-20 14:17:54...Enable InsideView Connector
+2013-05-20 14:17:54...Creating FTS logic hook
+2013-05-20 14:17:54...populating the db with seed data
+2013-05-20 14:17:54...Installation has completed *********
+2013-05-20 14:18:03...installerHook: Could not find custom/install/install_hooks.php
+2013-05-20 14:18:09...installerHook: Could not find custom/install/install_hooks.php

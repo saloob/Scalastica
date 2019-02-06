@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Registration
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/dendrite/dendrite.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/login.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/Facebook_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/External_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/scalastica.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="Registration" id="Registration"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="Registration_mobileheader" class="Registration_mobileheader">
+                <h1 dsid="mobileheader">
+                    Registration
+                </h1>
+                <!-- mobilebutton_35 --><!--
+                --><a data-role="button" name="mobilebutton_35" dsid="mobilebutton_35" class="Registration_mobilebutton_35 ui-btn-left"
+                style='min-height:16px; ' id="Registration_mobilebutton_35" data-corners="true" data-icon="home"
+                data-iconpos="left" x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="b" tabindex="16">
+                &nbsp;
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Registration_mobilecontainer" name="mobilecontainer"
+            class="Registration_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="Registration.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Registration.js">
+                </script>
+                <!-- account_name -->
+                <div data-role="fieldcontain" class="Registration_account_name ">
+                    <input type="text" name="account_name" dsid="account_name" value="" placeholder="Account Name"
+                    id="Registration_account_name" tabindex="12" multiple data-theme="b" class="Registration_account_name"
+                    />
+                </div>
+                <!-- username -->
+                <div data-role="fieldcontain" class="Registration_username ">
+                    <input type="text" name="username" dsid="username" value="" placeholder="Username"
+                    id="Registration_username" tabindex="11" multiple data-theme="b" class="Registration_username"
+                    />
+                </div>
+                <!-- password -->
+                <div data-role="fieldcontain" class="Registration_password ">
+                    <input type="password" name="password" dsid="password" value="" placeholder="Password"
+                    id="Registration_password" tabindex="10" multiple data-theme="b" class="Registration_password"
+                    />
+                </div>
+                <!-- first_name -->
+                <div data-role="fieldcontain" class="Registration_first_name ">
+                    <input type="text" name="first_name" dsid="first_name" value="" placeholder="First Name"
+                    id="Registration_first_name" tabindex="13" multiple data-theme="b" class="Registration_first_name"
+                    />
+                </div>
+                <!-- last_name -->
+                <div data-role="fieldcontain" class="Registration_last_name ">
+                    <input type="text" name="last_name" dsid="last_name" value="" placeholder="Last Name"
+                    id="Registration_last_name" tabindex="14" multiple data-theme="b" class="Registration_last_name"
+                    />
+                </div>
+                <!-- email -->
+                <div data-role="fieldcontain" class="Registration_email ">
+                    <input type="text" name="email" dsid="email" value="" placeholder="Email Address"
+                    id="Registration_email" tabindex="15" multiple data-theme="b" class="Registration_email"
+                    />
+                </div>
+                <!-- button_register --><!--
+                --><a data-role="button" name="button_register" dsid="button_register" class="Registration_button_register"
+                id="Registration_button_register" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="b" tabindex="9">
+                Register
+                </a><!--
+                --><!-- rego_message -->
+                <div name="rego_message" id="Registration_rego_message" dsid="rego_message" data-role="appery_label"
+                class="Registration_rego_message">
+                    Message
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Registration_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="Registration_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

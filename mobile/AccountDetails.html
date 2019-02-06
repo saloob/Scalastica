@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            AccountDetails
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/dendrite/dendrite.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/login.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/Facebook_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/External_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/scalastica.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="AccountDetails" id="AccountDetails"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="AccountDetails_mobileheader" class="AccountDetails_mobileheader">
+                <h1 dsid="mobileheader">
+                    Account Details
+                </h1>
+                <!-- mobilebutton_9 --><!--
+                --><a data-role="button" name="mobilebutton_9" dsid="mobilebutton_9" class="AccountDetails_mobilebutton_9 ui-btn-left"
+                style='min-height:16px; ' id="AccountDetails_mobilebutton_9" data-corners="true"
+                data-icon="home" data-iconpos="left" x-apple-data-detectors="false" data-inline='true'
+                data-mini='true' data-theme="b" tabindex="1">
+                &nbsp;
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="AccountDetails_mobilecontainer" name="mobilecontainer"
+            class="AccountDetails_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="AccountDetails.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="AccountDetails.js">
+                </script>
+                <!-- mobilegrid_2 -->
+                <div class="AccountDetails_mobilegrid_2_wrapper" data-wrapper-for="mobilegrid_2">
+                    <table id="AccountDetails_mobilegrid_2" class="AccountDetails_mobilegrid_2" dsid="mobilegrid_2"
+                    name="mobilegrid_2" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <tr class="AccountDetails_mobilegrid_2_row_0">
+                            <!-- mobilegridcell_3 -->
+                            <td id="AccountDetails_mobilegridcell_3" name="mobilegridcell_3" class="AccountDetails_mobilegridcell_3"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- account_name -->
+                                    <div name="account_name" id="AccountDetails_account_name" dsid="account_name" data-role="appery_label"
+                                    class="AccountDetails_account_name">
+                                        Account Name
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="AccountDetails_mobilegrid_2_row_1">
+                            <!-- mobilegridcell_5 -->
+                            <td id="AccountDetails_mobilegridcell_5" name="mobilegridcell_5" class="AccountDetails_mobilegridcell_5"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="AccountDetails_mobilegrid_2_row_2">
+                            <!-- mobilegridcell_7 -->
+                            <td id="AccountDetails_mobilegridcell_7" name="mobilegridcell_7" class="AccountDetails_mobilegridcell_7"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="AccountDetails_mobilegrid_2_row_3">
+                            <!-- mobilegridcell_8 -->
+                            <td id="AccountDetails_mobilegridcell_8" name="mobilegridcell_8" class="AccountDetails_mobilegridcell_8"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="AccountDetails_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="AccountDetails_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

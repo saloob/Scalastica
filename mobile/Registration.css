@@ -1,0 +1,59 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_35 */
+#Registration_mobilebutton_35 {
+
+}
+.ui-btn.Registration_mobilebutton_35 {
+
+}
+/* mobilecontainer */
+.ui-content.Registration_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* account_name */
+.Registration_account_name {
+	margin: 4px 0px 4px 0px;
+}
+/* username */
+.Registration_username {
+	margin: 4px 0px 4px 0px;
+}
+/* password */
+.Registration_password {
+	margin: 4px 0px 4px 0px;
+}
+/* first_name */
+.Registration_first_name {
+	margin: 4px 0px 4px 0px;
+}
+/* last_name */
+.Registration_last_name {
+	margin: 4px 0px 4px 0px;
+}
+/* email */
+.Registration_email {
+	margin: 4px 0px 4px 0px;
+}
+/* button_register */
+#Registration_button_register {
+
+}
+.ui-btn.Registration_button_register {
+	margin: 4px 5px 4px 5px;
+}
+/* rego_message */
+.Registration_rego_message {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.Registration_mobilefooter {
+	min-height:38px;
+}

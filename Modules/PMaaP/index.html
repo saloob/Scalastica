@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Modules" />
+    <meta name="author" content="Saloob" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PMaaP</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.reorder_link').on('click',function(){
+		$("ul.reorder-modules-list").sortable({ tolerance: 'pointer' });
+		$('.reorder_link').html('save reordering');
+		$('.reorder_link').attr("id","save_reorder");
+		$('#reorder-helper').slideDown('slow');
+		$('.module_link').attr("href","javascript:void(0);");
+		$('.module_link').css("cursor","move");
+		$("#save_reorder").click(function( e ){
+			if( !$("#save_reorder i").length ){
+				$(this).html('').prepend('<img src="images/refresh-animated.gif"/>');
+				$("ul.reorder-modules-list").sortable('destroy');
+				$("#reorder-helper").html( "Reordering Items - This could take a moment. Please don't navigate away from this page." ).removeClass('light_box').addClass('notice notice_error');
+	
+				var h = [];
+				$("ul.reorder-modules-list li").each(function() {  h.push($(this).attr('id').substr(10));  });
+				
+	                        $.ajax({
+		                        type: 'POST',
+		                        url: 'http://www.scalastica.com/api/modules/',
+                                        dataType: "json",
+				        data: {ids: " " + h + ""},
+                		        success: function(data){
+                                                 renderModuleList(data);
+						 window.location.reload();
+					         }
+                        	});
+				return false;
+			}	
+			e.preventDefault();		
+		});
+	});
+});
+</script>
+
+</head>
+<body>
+<div style="margin-top:50px;">
+
+<a href="javascript:void(0);" class="btn outlined mleft_no reorder_link" id="save_reorder">Reorder Items</a>
+    <div id="reorder-helper" class="light_box" style="display:none;">1. Drag to reorder.<br>2. Click 'Save Reordering' when finished.</div>
+	
+    <div class="gallery">
+        <ul id="ModuleList" class="reorder_ul reorder-modules-list"></ul>
+    </div>
+</div>
+
+    <script src="../../js/controller.js"></script>
+    <script type="text/javascript">
+     GetModules();
+    </script>
+
+</body>
+</html>

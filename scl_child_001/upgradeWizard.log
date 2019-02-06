@@ -1,0 +1,1019 @@
+aa
+Thu, 25 Jul 2013 07:27:00 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:27:00 +0900 [UpgradeWizard] - -----------------------------------------------------------------------------
+Thu, 25 Jul 2013 07:27:00 +0900 [UpgradeWizard] - Upgrade started. At start.php
+Thu, 25 Jul 2013 07:27:00 +0900 [UpgradeWizard] - at unlinkUWTempFiles()
+Thu, 25 Jul 2013 07:27:00 +0900 [UpgradeWizard] - finished!
+Thu, 25 Jul 2013 07:27:00 +0900 [UpgradeWizard] - resetting $_SESSION
+Thu, 25 Jul 2013 07:27:19 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:27:19 +0900 [UpgradeWizard] - [At systemCheck.php]
+Thu, 25 Jul 2013 07:27:19 +0900 [UpgradeWizard] - Starting file permission check...
+Thu, 25 Jul 2013 07:27:34 +0900 [UpgradeWizard] - File [/var/www/vhosts/default/htdocs/zadara/.htaccess] not writable - saving for display
+Thu, 25 Jul 2013 07:28:09 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:28:09 +0900 [UpgradeWizard] - [At systemCheck.php]
+Thu, 25 Jul 2013 07:28:09 +0900 [UpgradeWizard] - Starting file permission check...
+Thu, 25 Jul 2013 07:28:25 +0900 [UpgradeWizard] - File [/var/www/vhosts/default/htdocs/zadara/.htaccess] not writable - saving for display
+Thu, 25 Jul 2013 07:29:34 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:29:34 +0900 [UpgradeWizard] - [At systemCheck.php]
+Thu, 25 Jul 2013 07:29:34 +0900 [UpgradeWizard] - Starting file permission check...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - File [/var/www/vhosts/default/htdocs/zadara/.htaccess] not writable - saving for display
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Finished file permission check.
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Starting database permissions check...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Checking CREATE TABLE permissions...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Checking INSERT INTO permissions...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Checking UPDATE TABLE permissions...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Checking SELECT permissions...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Checking DELETE FROM permissions...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Checking ALTER TABLE ADD COLUMN permissions...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Checking ALTER TABLE CHANGE COLUMN permissions...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Checking ALTER TABLE DROP COLUMN permissions...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Checking DROP TABLE permissions...
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - No permissions errors found!
+Thu, 25 Jul 2013 07:29:50 +0900 [UpgradeWizard] - Finished database permissions check.
+Thu, 25 Jul 2013 07:30:33 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:30:33 +0900 [UpgradeWizard] - [At systemCheck.php]
+Thu, 25 Jul 2013 07:30:33 +0900 [UpgradeWizard] - Starting file permission check...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Finished file permission check.
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Starting database permissions check...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Checking CREATE TABLE permissions...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Checking INSERT INTO permissions...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Checking UPDATE TABLE permissions...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Checking SELECT permissions...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Checking DELETE FROM permissions...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Checking ALTER TABLE ADD COLUMN permissions...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Checking ALTER TABLE CHANGE COLUMN permissions...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Checking ALTER TABLE DROP COLUMN permissions...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Checking DROP TABLE permissions...
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - No permissions errors found!
+Thu, 25 Jul 2013 07:30:48 +0900 [UpgradeWizard] - Finished database permissions check.
+Thu, 25 Jul 2013 07:30:52 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:30:52 +0900 [UpgradeWizard] - At upload.php
+Thu, 25 Jul 2013 07:30:52 +0900 [UpgradeWizard] - finding new files for upgrade
+Thu, 25 Jul 2013 07:30:52 +0900 [UpgradeWizard] - *** UW using [  ] as source for patch files.
+Thu, 25 Jul 2013 07:36:59 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:36:59 +0900 [UpgradeWizard] - At upload.php
+Thu, 25 Jul 2013 07:36:59 +0900 [UpgradeWizard] - running upload
+Thu, 25 Jul 2013 07:36:59 +0900 [UpgradeWizard] - File uploaded to upload://SugarCE-Upgrade-6.5.x-to-6.5.14.zip
+Thu, 25 Jul 2013 07:36:59 +0900 [UpgradeWizard] - extracting manifest.
+Thu, 25 Jul 2013 07:36:59 +0900 [UpgradeWizard] - validating manifest.php file
+Thu, 25 Jul 2013 07:36:59 +0900 [UpgradeWizard] - copying manifest.php to final destination.
+Thu, 25 Jul 2013 07:36:59 +0900 [UpgradeWizard] - zip file moved to [SugarCE-Upgrade-6.5.x-to-6.5.14.zip]
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_utils.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_ajax.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/systemCheck.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/preflight.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/index.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/end.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/UpgradeRemoval.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_utils.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_ajax.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/systemCheck.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/preflight.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/index.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/end.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/UpgradeRemoval.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/extensions.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/tpls/PackageForm.tpl
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/PackageManagerDisplay.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/PackageManager.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/ModuleScanner.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/ModuleInstaller.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_utils.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_ajax.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/systemCheck.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/preflight.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/index.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/end.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/UpgradeRemoval.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_utils.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_ajax.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/systemCheck.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/preflight.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/index.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/end.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/UpgradeRemoval.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/extensions.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/tpls/PackageForm.tpl
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/PackageManagerDisplay.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/PackageManager.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/ModuleScanner.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/ModuleInstaller.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/SugarTheme/getImage.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/SugarTheme/SugarTheme.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_utils.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_ajax.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/systemCheck.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/preflight.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/index.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/end.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/UpgradeRemoval.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_utils.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_ajax.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/systemCheck.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/preflight.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/index.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/end.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/UpgradeRemoval.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/extensions.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/tpls/PackageForm.tpl
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/PackageManagerDisplay.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/PackageManager.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/ModuleScanner.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/ModuleInstaller.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_utils.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_ajax.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/systemCheck.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/preflight.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/index.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/end.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/UpgradeRemoval.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_utils.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/uw_ajax.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/systemCheck.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/silentUpgrade.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/preflight.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/index.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/end.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/commit.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: modules/UpgradeWizard/UpgradeRemoval.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/extensions.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/tpls/PackageForm.tpl
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/PackageManagerDisplay.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/PackageManager/PackageManager.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/ModuleScanner.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: ModuleInstall/ModuleInstaller.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/SugarTheme/getImage.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/SugarTheme/SugarTheme.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/SugarCache/SugarCache.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/upload_file.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/upload_file.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/utils/sugar_file_utils.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/utils/autoloader.php
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - finding new files for upgrade
+Thu, 25 Jul 2013 07:37:00 +0900 [UpgradeWizard] - *** UW using [ upload://upgrades/patch/SugarCE-Upgrade-6.5.x-to-6.5.14.zip ] as source for patch files.
+Thu, 25 Jul 2013 07:37:05 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:37:05 +0900 [UpgradeWizard] - at preflight.php
+Thu, 25 Jul 2013 07:37:05 +0900 [UpgradeWizard] - unzipping files in upgrade archive...
+Thu, 25 Jul 2013 07:37:06 +0900 [UpgradeWizard] - verifying md5 checksums for files...
+Thu, 25 Jul 2013 07:37:08 +0900 [UpgradeWizard] - md5 verification done.
+Thu, 25 Jul 2013 07:37:08 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/database/MysqlManager.php
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/database/MssqlManager.php
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/database/DBManager.php
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/SugarCache/SugarCache.php
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/utils/sugar_file_utils.php
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/utils/sugar_file_utils.php
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - updating UpgradeWizard code: include/utils/autoloader.php
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - file preflight check passed successfully.
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - starting schema preflight check...
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - looking for schema script at: /var/www/vhosts/default/htdocs/zadara/cache/upgrades/temp/nStJuf/scripts/650_to_650_mysql.sql
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - no schema script found - all schema preflight skipped
+Thu, 25 Jul 2013 07:37:09 +0900 [UpgradeWizard] - schema preflight done.
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - [At commit.php]
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Setting error_reporting() to E_ERROR while running upgrade
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - backing up files to be overwritten...
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/wells.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/variables.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/utilities.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/type.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/tooltip.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/thumbnails.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/tables.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/sugarmobile.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/sugar.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/sprites.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/scaffolding.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/responsive.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/reset.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/progress-bars.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/popovers.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/pagination.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/pager.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/navs.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/navbar.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/modals.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/mixins.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/layouts.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/labels.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/hero-unit.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/grid.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/forms.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/font-awesome.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/dropdowns.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/component-animations.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/code.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/close.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/chosen.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/carousel.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/buttons.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/button-groups.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/breadcrumbs.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/bootstrap.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/bootstrap-mobile.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/alerts.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/less/accordion.less
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/images/IBMSmartCloud_image_inline.png
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/font/fontawesome-webfont.woff
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/font/fontawesome-webfont.ttf
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/font/fontawesome-webfont.svgz
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/font/fontawesome-webfont.svg
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/font/fontawesome-webfont.eot
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/default/css/bootstrap.css
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/Sugar5/tpls/header.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/Sugar5/tpls/_welcome.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/Sugar5/tpls/_head.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/themes/Sugar5/css/style.css
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/sugar_version.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/soap/SoapTypes.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/soap/SoapSugarUsers.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/soap/SoapPortalHelper.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/soap/SoapHelperFunctions.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/soap/SoapError.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/soap/SoapDeprecated.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/v4_1/SugarWebServiceUtilv4_1.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/v4_1/SugarWebServiceImplv4_1.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/v4/SugarWebServiceUtilv4.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/v4/SugarWebServiceImplv4.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/v3_1/SugarWebServiceUtilv3_1.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/v3_1/SugarWebServiceImplv3_1.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/v3/SugarWebServiceUtilv3.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/v3/SugarWebServiceImplv3.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/example/example.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/core/webservice.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/core/SugarWebServiceImpl.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/core/SoapHelperWebService.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/service/core/REST/SugarRestJSON.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/robots.txt
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/vCals/vCal.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/vCals/HTTP_WebDAV_Server_vCal.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/iCals/iCal.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/iCals/HTTP_WebDAV_Server_iCal.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/views/view.wizard.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/views/view.edit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/tpls/QuickEditFooter.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/tpls/EditViewHeader.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/tpls/EditViewFooter.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/tpls/DetailViewFooter.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/reassignUserRecords.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/login.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/login.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/controller.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/authentication/SugarAuthenticate/SugarAuthenticate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/authentication/SAMLAuthenticate/settings.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/authentication/SAMLAuthenticate/lib/xmlseclibs/xmlseclibs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/authentication/SAMLAuthenticate/index.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/authentication/SAMLAuthenticate/SAMLAuthenticateUser.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/authentication/SAMLAuthenticate/SAMLAuthenticate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/authentication/LDAPAuthenticate/LDAPAuthenticateUser.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/authentication/AuthenticationController.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/UserViewHelper.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/UserEditView.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/User.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/UpdateTourStatus.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/Save.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/Logout.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/Login.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/LoggedOut.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/LoggedOut.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/GeneratePassword.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/Changenewpassword.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Users/Authenticate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UserPreferences/UserPreference.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/uw_utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/uw_ajax.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/systemCheck.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/silentUpgrade_step2.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/silentUpgrade_step1.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/silentUpgrade_dce_step2.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/silentUpgrade_dce_step1.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/silentUpgrade.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/preflight.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/index.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/end.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/commit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/UpgradeWizard/UpgradeRemoval.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Tasks/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Tasks/metadata/subpanels/ForHistory.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Tasks/metadata/additionalDetails.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Tasks/metadata/SearchFields.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Tasks/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Tasks/Task.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/TableDictionary.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/SugarFeed/tpls/AdminSettings.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Studio/wizards/RenameModules.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Studio/TabGroups/EditViewTabs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/SchedulersJobs/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/SchedulersJobs/SchedulersJob.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Schedulers/views/view.edit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Schedulers/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Schedulers/_AddJobsHere.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Schedulers/Scheduler.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Relationships/Relationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Prospects/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Prospects/tpls/QuickCreate.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Prospects/Prospect.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ProspectLists/ProspectList.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ProjectTask/views/view.list.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ProjectTask/ProjectTask.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Project/views/view.quickedit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Project/tpls/QuickEditHeader.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Project/tpls/QuickEditFooter.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Project/Project.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Opportunities/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Opportunities/Opportunity.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/OAuthTokens/OAuthToken.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Notes/Note.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MySettings/TabController.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/views/view.modulefields.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/views/view.listview.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/views/view.layoutview.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/tpls/layoutView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/tpls/editProperty.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/views/UndeployedSubpanelImplementation.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/views/ListLayoutMetaDataParser.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/views/GridLayoutMetaDataParser.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/views/DeployedMetaDataImplementation.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/views/DashletMetaDataParser.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/relationships/UndeployedRelationships.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/relationships/ActivitiesRelationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/relationships/AbstractRelationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/StandardField.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/parsers/ParserFactory.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/javascript/studio2.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/javascript/SimpleList.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/javascript/ModuleBuilder.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/controller.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/Module/StudioModule.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/Module/DropDownBrowser.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/MB/ModuleBuilder.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/MB/MBPackage.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ModuleBuilder/MB/MBModule.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MergeRecords/Step3.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MergeRecords/Step2.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MergeRecords/Step1.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MergeRecords/SaveMerge.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/views/view.listbytype.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/tpls/reminders.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/metadata/subpanels/ForHistory.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/metadata/quickcreatedefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/metadata/editviewdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/metadata/detailviewdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/metadata/additionalDetails.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/jsclass_scheduler.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/duration_dependency.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/Save.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/MeetingFormBase.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/Meeting.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Meetings/Dashlets/MyMeetingsDashlet/MyMeetingsDashlet.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MailMerge/merge_query.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MailMerge/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MailMerge/index.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MailMerge/Step4.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MailMerge/Step3.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MailMerge/Step3.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MailMerge/Step2.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/MailMerge/Step1.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/views/view.convertlead.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/tpls/QuickCreate.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/tpls/EditConvertLead.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/tpls/ConvertLeadHeader.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/tpls/ConvertLeadFooter.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/tpls/ConvertLead.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/metadata/editviewdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/metadata/convertdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Leads/Lead.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/InboundEmail/Save.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/InboundEmail/InboundEmail.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/InboundEmail/EditView.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/InboundEmail/EditView.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Import/views/view.step3.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Import/views/view.last.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Import/views/view.dupcheck.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Import/views/view.confirm.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Import/sources/ImportFile.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Import/UsersLastImport.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Import/Importer.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Import/ImportDuplicateCheck.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Import/CsvAutoDetect.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/views/view.tour.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/views/view.list.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/tour.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/tour.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/tour.css
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/quicksearchQuery.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/index.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/action_view_map.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/UnifiedSearchAdvanced.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/QuickSearch.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/Dashlets/iFrameDashlet/iFrameDashlet.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/Dashlets/iFrameDashlet/iFrameDashlet.meta.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/Dashlets/SugarNewsDashlet/SugarNewsDashlet.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/Dashlets/ChartsDashlet/ChartsDashlet.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Home/About.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Employees/controller.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Employees/EmployeesSearchForm.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Employees/Employee.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/views/view.quickcreate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/javascript/grid.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/javascript/composeEmailTemplate.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/javascript/complexLayout.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/javascript/ajax.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/javascript/EmailUICompose.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/javascript/EmailUI.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/javascript/Email.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/Popup.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/EmailUIAjax.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/EmailUI.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/Email.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/EditView.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/DetailView.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/Delete.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/Compose.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Emails/Check.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailTemplates/PopupDocumentsCampaignTemplate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailTemplates/PopupDocumentsCampaignTemplate.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailTemplates/EmailTemplateFormBase.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailTemplates/EmailTemplate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailTemplates/AttachFiles.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailMarketing/EditView.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailMan/views/view.config.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailMan/tpls/config.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailMan/EmailManDelivery.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EmailMan/EmailMan.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EAPM/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/EAPM/controller.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DynamicFields/templates/Fields/TemplateRelatedTextField.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DynamicFields/templates/Fields/TemplateInt.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DynamicFields/templates/Fields/TemplateField.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DynamicFields/templates/Fields/TemplateDatetimecombo.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DynamicFields/templates/Fields/Forms/enum.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DynamicFields/templates/Fields/Forms/currency.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DynamicFields/templates/Fields/Forms/coreBottom.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DynamicFields/UpgradeFields.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DynamicFields/DynamicField.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Documents/views/view.extdoc.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Documents/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Documents/metadata/SearchFields.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Documents/Document.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Documents/Delete.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DocumentRevisions/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DocumentRevisions/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/DocumentRevisions/DocumentRevision.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Currencies/Currency.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Contacts/views/view.edit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Contacts/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Contacts/tpls/QuickCreate.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Contacts/metadata/quickcreatedefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Contacts/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Contacts/Popup_picker.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Contacts/ContactFormBase.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Contacts/Contact.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Contacts/AcceptDecline.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Connectors/views/view.sourceproperties.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Connectors/connectors/sources/ext/rest/linkedin/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Connectors/connectors/sources/ext/rest/linkedin/config.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Connectors/connectors/sources/ext/rest/insideview/tpls/InsideView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Connectors/connectors/formatters/ext/rest/linkedin/tpls/default.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Configurator/views/view.edit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Configurator/tpls/adminwizard.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Configurator/tpls/EditView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Configurator/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Configurator/UploadFileCheck.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Configurator/LogView.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Configurator/Forms.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Configurator/Configurator.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Charts/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Charts/code/predefined_charts.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Charts/chartdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Charts/DynamicAction.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Charts/Dashlets/MyPipelineBySalesStageDashlet/MyPipelineBySalesStageDashlet.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Cases/metadata/popupdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Cases/metadata/detailviewdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Cases/Case.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/views/view.detail.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/tpls/campaign-inactive.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/metadata/detailviewdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/WizardNewsletter.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/WizardMarketing.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/WizardHome.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/WizardEmailSetupSave.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/WizardEmailSetup.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/WizardEmailSetup.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/WebToLeadFormSave.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/WebToLeadDownloadForm.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/WebToLeadCapture.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/TrackDetailView.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/Schedule.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/QueueCampaign.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/ProcessBouncedEmails.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/Dashlets/TopCampaignsDashlet/TopCampaignsDashlet.meta.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/Charts.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Campaigns/Campaign.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/CampaignLog/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/CampaignLog/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/metadata/subpanels/ForHistory.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/metadata/editviewdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/metadata/detailviewdefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/metadata/additionalDetails.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/Save.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/CallHelper.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/CallFormBase.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calls/Call.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/views/view.savesettings.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/tpls/shared_users.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/tpls/settings.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/tpls/main.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/tpls/form.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/index.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/CalendarUtils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/CalendarGrid.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/CalendarDisplay.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/CalendarActivity.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/Calendar.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/Cal.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Calendar/Cal.css
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Bugs/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Bugs/Bug.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Audit/Audit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/views/view.backups.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/updater_utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/templates/GlobalSearchSettings.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/metadata/adminpaneldefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/controller.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/action_view_map.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/UpgradeWizard_prepare.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/UpgradeWizard_commit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/UpgradeWizard.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/SupportPortal.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/SugarSpriteBuilder.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/RebuildConfig.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/PasswordManager.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/PasswordManager.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/Locale.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/DisplayWarnings.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/DiagnosticRun.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/DiagnosticDownload.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/DiagnosticDelete.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/Diagnostic.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/Async.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Administration/Administration.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Activities/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Activities/SubPanelViewContacts.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Activities/SubPanelView.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Activities/Popup_picker.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Activities/EmailReminder.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Accounts/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Accounts/metadata/subpaneldefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/Accounts/Account.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ACLRoles/DetailView.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ACLRoles/ACLRole.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ACLActions/ACLAction.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/modules/ACL/ACLController.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/metadata/emails_beansMetaData.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/metadata/audit_templateMetaData.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/modules/Users/login.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/modules/Users/UserEditView.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/modules/Meetings/jsclass_scheduler.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/modules/Meetings/duration_dependency.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/modules/Home/tour.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/modules/Calendar/Cal.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/javascript/tour.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/javascript/sugar_3.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/javascript/report_additionals.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/javascript/quicksearch.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/javascript/quickCompose.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/javascript/popup_helper.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/javascript/jsclass_async.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/javascript/ajaxUI.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/SugarFields/Fields/Datetimecombo/Datetimecombo.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/SugarEmailAddress/SugarEmailAddress.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/SugarCharts/Jit/js/sugarCharts.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/SugarCharts/Jit/js/Jit/jit.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/SubPanel/SubPanelTiles.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/src_files/include/EditView/Panels.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/jssource/JSGroupings.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/json_server.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/install/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/install/install_utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/install/confirmSettings.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/install/checkDBSettings.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/vCard.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/utils/sugar_file_utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/utils/security_utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/utils/layout_utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/utils/file_utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/utils/autoloader.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/utils/LogicHook.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/upload_file.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/tabConfig.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-zh_cn.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-zh.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-tr.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-se.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-ru.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-ro.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-pl.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-no.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-nl.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-ja.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-it.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-hu.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-fr.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-fo.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-fi.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-et.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-es.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-dk.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-de.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-cz.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-ch.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-ca.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-br.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/language/phpmailer.lang-ar.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/extras/htmlfilter.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/class.smtp.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/class.phpmailer.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/README
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/phpmailer/LICENSE
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/php-sql-parser.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/nusoap/nusoap.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/modules.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/language/en_us.notify_template.html
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/tour.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/tiny_mce/plugins/paste/editor_plugin_src.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/tiny_mce/plugins/paste/editor_plugin.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/sugar_3.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/report_additionals.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/quicksearch.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/quickCompose.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/popup_helper.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/jsclass_async.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/jsAlerts.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/jquery/jquery.sugarMenu.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/jquery/jquery.popoverext.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/jquery/jquery.hoverIntent.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/jquery/jquery.effects.custombounce.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/jquery/bootstrap.min.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/javascript.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/getYUIComboFile.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/javascript/ajaxUI.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/images/tour/profile_link.png
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/images/tour/arrow_ie.png
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/images/tour/arrow.png
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/images/tour/FirstFrame.png
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/globalControlLinks.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelTopSelectUsersButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelTopSelectContactsButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelTopSelectButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelTopCreateTaskButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelTopCreateCampaignLogEntryButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelTopComposeEmailButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelTopButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelTopArchiveEmailButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelRemoveButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelIcon.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelEditButton.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetSubPanelDetailViewLink.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetReportField.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFieldtext.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFieldrelate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFieldname.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFieldmultienum.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFieldlong.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFieldenum.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFielddatetime.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFielddate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFieldcurrency_id.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFieldcurrency.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidgetFieldbool.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/SugarWidgets/SugarWidget.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/Save2.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/generic/LayoutManager.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/formbase.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/externalAPI/ExternalAPIFactory.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/export_utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/entryPoint.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/database/MysqlManager.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/database/MssqlManager.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/database/DBManager.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/connectors/utils/ConnectorUtils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/connectors/utils/ConnectorHtmlHelperFactory.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/connectors/utils/ConnectorHtmlHelper.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/clean.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/VarDefHandler/vardef_meta_arrays.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/VarDefHandler/VarDefHandler.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/TimeDate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/TemplateHandler/TemplateHandler.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Sugarpdf/Sugarpdf.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Sugar_Smarty.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarXHprof/xhprof_lib/utils/xhprof_runs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarXHprof/xhprof_lib/utils/xhprof_lib.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarXHprof/xhprof_lib/utils/callgraph_utils.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarXHprof/xhprof_lib/display/xhprof.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarXHprof/xhprof_lib/display/typeahead_common.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarXHprof/SugarXHprof.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarTheme/getImage.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarTheme/SugarTheme.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarQueue/SugarJobQueue.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarQueue/SugarCronJobs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarPHPMailer.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/sale/metadata/subpanels/default.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/sale/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/person/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/person/metadata/subpanels/default.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/person/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/person/Person.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/issue/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/issue/metadata/subpanels/default.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/issue/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/file/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/file/metadata/subpanels/default.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/file/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/company/vardefs.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/company/metadata/subpanels/default.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/company/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/company/Company.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/basic/metadata/subpanels/default.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/templates/basic/language/en_us.lang.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/VardefManager.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarObjects/LanguageManager.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarLogger/LoggerManager.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFolders/SugarFolders.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Text/DetailView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Relate/SugarFieldRelate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Relate/DetailView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Parent/SearchView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Parent/EditView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Link/EditView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Int/RangeSearchForm.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/File/SugarFieldFile.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/File/SearchView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Datetimecombo/SugarFieldDatetimecombo.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Datetimecombo/RangeSearchForm.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Datetimecombo/Datetimecombo.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Datetime/SugarFieldDatetime.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Currency/SugarFieldCurrency.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarFields/Fields/Base/SugarFieldBase.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarEmailAddress/SugarEmailAddress.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarEmailAddress/SugarEmailAddress.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarDateTime.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarCharts/SugarChart.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarCharts/JsChart.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarCharts/Jit/js/sugarCharts.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarCharts/Jit/js/Jit/jit.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarCharts/Jit/JitReports.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SugarCache/SugarCache.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SubPanel/SubPanelViewer.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SubPanel/SubPanelTiles.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SubPanel/SubPanelTiles.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SubPanel/SubPanelDefinitions.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SubPanel/SubPanel.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Smarty/plugins/modifier.json.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Smarty/plugins/function.sugar_replace_vars.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Smarty/plugins/function.sugar_phone.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Smarty/plugins/function.sugar_number_format.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Smarty/plugins/function.sugar_menu.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Smarty/plugins/function.sugar_button.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Smarty/plugins/function.sugar_action_menu.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Smarty/Smarty_Compiler.class.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SearchForm/tpls/SearchFormGenericAdvanced.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SearchForm/SearchForm2.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/SearchForm/SearchForm.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Popups/tpls/PopupGeneric.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Popups/PopupSmarty.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/OutboundEmail/OutboundEmail.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MySugar/MySugar.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MassUpdate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/View/views/view.popup.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/View/views/view.list.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/View/views/view.importvcardsave.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/View/views/view.importvcard.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/View/views/view.edit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/View/views/view.detail.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/View/tpls/Importvcard.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/View/SugarView.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/SugarApplication.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/MVC/Controller/entry_point_registry.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Localization/Localization.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/ListView/ListViewSmarty.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/ListView/ListViewPagination.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/ListView/ListViewGeneric.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/ListView/ListViewDisplay.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/ListView/ListViewData.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/ListView/ListView.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/HTMLPurifier/HTMLPurifier.standalone.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/GroupedTabs/GroupedTabStructure.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/EditView/header.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/EditView/SugarVCR.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/EditView/SugarVCR.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/EditView/SubpanelQuickEdit.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/EditView/SubpanelQuickCreate.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/EditView/Panels.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/EditView/EditView2.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/EditView/EditView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/DetailView/header.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/DetailView/DetailView2.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/DetailView/DetailView.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Dashlets/DashletGenericChart.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Dashlets/DashletGeneric.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/include/Dashlets/Dashlet.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/get_url.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/export.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/download.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/SugarBean.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/Relationships/SugarRelationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/Relationships/RelationshipFactory.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/Relationships/One2OneRelationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/Relationships/One2OneBeanRelationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/Relationships/One2MRelationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/Relationships/One2MBeanRelationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/Relationships/M2MRelationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/Relationships/EmailAddressRelationship.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/Link2.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/data/BeanFactory.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/crossdomain.xml
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/cron.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/cache/include/javascript/sugar_grp_quickcomp.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/cache/include/javascript/sugar_grp_jsolait.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/cache/include/javascript/sugar_grp_emails.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/cache/include/javascript/sugar_grp1_yui.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/cache/include/javascript/sugar_grp1_jquery.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/cache/include/javascript/sugar_grp1.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/cache/include/javascript/sugar_field_grp.js
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/Zend/Oauth/Provider.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/ModuleInstall/extensions.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/ModuleInstall/PackageManager/tpls/PackageForm.tpl
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/ModuleInstall/PackageManager/PackageManagerDisplay.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/ModuleInstall/PackageManager/PackageManager.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/ModuleInstall/ModuleScanner.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Backing up file: /var/www/vhosts/default/htdocs/zadara/ModuleInstall/ModuleInstaller.php
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - file backup done.
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - Running pre_install()...
+Thu, 25 Jul 2013 07:37:15 +0900 [UpgradeWizard] - pre_install() done.
+Thu, 25 Jul 2013 07:37:16 +0900 [UpgradeWizard] - Commit step finished SugarMerge run with the following results:Array
+(
+    [Connectors] => Array
+        (
+        )
+
+)
+
+Thu, 25 Jul 2013 07:37:16 +0900 [UpgradeWizard] - Starting file copy process...
+Thu, 25 Jul 2013 07:37:16 +0900 [UpgradeWizard] - Skipping "sugar_version.php" - file copy will occur at end of successful upgrade
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - File copy done.
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - Starting post_install()...
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - Entered post_install function.
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - Upgrading the database from 6.5.13 to version 6.5.14
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - Running SQL file /var/www/vhosts/default/htdocs/zadara/cache/upgrades/temp/nStJuf/scripts/65x_to_65x_mysql.sql
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - *** Skipping schema upgrade for point release.
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - Applying .htaccess update security fix.
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - Rebuilding SugarLogic Cache
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - Rebuilding JS Langauages
+Thu, 25 Jul 2013 07:37:17 +0900 [UpgradeWizard] - Rebuilding Dashlets
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - At updateVersions()... updating config table and sugar_version.php.
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - sugar_version.php successfully updated!
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Deleting old DB version info from config table.
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Inserting updated version info into config table.
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - updateVersions() complete.
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Begining to upgrade group inbound email accounts
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Finished upgrade group inbound email accounts
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Found 0 escaped emails. Ignoring for now
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Found 0 emails whose caps field does not match.
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - ------------------------------------------------------------------
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Determining which email addresses are duplicated within the system
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Repairing duplicate email address relationships and marking duplicates as deleted
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Performing UWrebuild()...
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Registering rebuild record: DELETE FROM versions WHERE name='Rebuild Extensions'
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Rebuild done.
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Registering rebuild record in versions table: INSERT INTO versions (id, deleted, date_entered, date_modified, modified_user_id, created_by, name, file_version, db_version) VALUES ('d2806d34-b9c5-6a4f-90d6-51f0579b0e28', '0', '2013-07-24 22:37:18', '2013-07-24 22:37:18', '1', '1', 'Rebuild Extensions', '4.0.0', '4.0.0')
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - UWrebuild() done.
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - post_install() done.
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - check if current_db_version in $_SESSION equals target_db_version in $_SESSION
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - finished check to see if current_db_version in $_SESSION equals target_db_version in $_SESSION
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - running deleteChance() function
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - running deleteCache() function
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - call addNewSystemTabsFromUpgrade(upload://upgrades/patch/SugarCE-Upgrade-6.5.x-to-6.5.14-restore)
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - check to see if new modules exist
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - new modules to add are array (
+)
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - module tabs updated
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - finished addNewSystemTabsFromUpgrade
+Thu, 25 Jul 2013 07:37:18 +0900 [UpgradeWizard] - Registering upgrade with UpgradeHistory
+Thu, 25 Jul 2013 07:37:19 +0900 [UpgradeWizard] - Resetting error_reporting() to system level.
+Thu, 25 Jul 2013 07:37:19 +0900 [UpgradeWizard] - Rebuilding style js file: cache/themes/Sugar5/js/style-min.js
+Thu, 25 Jul 2013 07:37:19 +0900 [UpgradeWizard] - Rebuilding language cache
+Thu, 25 Jul 2013 07:37:23 +0900 [UpgradeWizard] - setting session variables...
+Thu, 25 Jul 2013 07:37:26 +0900 [UpgradeWizard] - [At end.php]
+Thu, 25 Jul 2013 07:37:26 +0900 [UpgradeWizard] -  Writing FTS hooks
+Thu, 25 Jul 2013 07:37:26 +0900 [UpgradeWizard] - About to repair the database.
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - Running sql:/* Table : cron_remove_documents */
+/* MISSING TABLE: cron_remove_documents */
+CREATE TABLE cron_remove_documents (id varchar(36)  NOT NULL ,bean_id varchar(36)  NULL ,module varchar(25)  NULL ,date_modified datetime  NULL  , PRIMARY KEY (id),   KEY idx_cron_remove_document_bean_id (bean_id),   KEY idx_cron_remove_document_stamp (date_modified)) CHARACTER SET utf8 COLLATE utf8_general_ci
+
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - database repaired
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] -  Start Rebuilding the config file again
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] -  Finish Rebuilding the config file again
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - Begin upgrade_connectors
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - End upgrade_connectors
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - Running UpgradeRemoval instance UpgradeRemoval62x
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - Files will be backed up to custom/backup
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - Running UpgradeRemoval instance UpgradeRemoval64x
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - Files will be backed up to custom/backup
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - Running UpgradeRemoval instance UpgradeRemoval65x
+Thu, 25 Jul 2013 07:37:27 +0900 [UpgradeWizard] - Files will be backed up to custom/backup
+Thu, 25 Jul 2013 07:37:39 +0900 [UpgradeWizard] - Start Updating the license 
+Thu, 25 Jul 2013 07:37:40 +0900 [UpgradeWizard] - End Updating the license 
+Thu, 25 Jul 2013 07:37:40 +0900 [UpgradeWizard] - Cleaning up the session.  Goodbye.
+Thu, 25 Jul 2013 07:37:40 +0900 [UpgradeWizard] - at unlinkUWTempFiles()
+Thu, 25 Jul 2013 07:37:44 +0900 [UpgradeWizard] - finished!
+Thu, 25 Jul 2013 07:37:44 +0900 [UpgradeWizard] - Cleaning up the session.  Goodbye.
+Thu, 25 Jul 2013 07:37:44 +0900 [UpgradeWizard] - resetting $_SESSION

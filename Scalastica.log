@@ -1,0 +1,42 @@
+[Scalastica LOG :2016-03-19 10:53:47] tlds:.de[].jp
+[Scalastica LOG :2016-03-19 11:01:56] tlds:.de[].ch[].jp
+[Scalastica LOG :2016-03-19 11:07:49] tlds:.de[].ch[].jp
+[Scalastica LOG :2016-03-19 11:11:57] tlds:.de[].ch[].jp
+[Scalastica LOG :2016-03-19 11:12:49] tlds:.de[].ch[].jp
+[Scalastica LOG :2016-03-19 11:16:13] tlds:.de[].ch[].jp
+[Scalastica LOG :2016-03-19 11:20:23] tlds:.de[].ch[].jp
+[Scalastica LOG :2016-03-19 11:28:08] tlds:.de[].ch
+[Scalastica LOG :2016-03-19 11:31:12] tlds:.co[].de[].ch
+[Scalastica LOG :2016-03-19 11:34:23] tlds:.co[].de
+[Scalastica LOG :2016-03-19 11:41:23] tlds:.co[].de
+[Scalastica LOG :2016-03-19 11:43:01] tlds:.co[].de[].jp
+[Scalastica LOG :2016-03-20 11:31:03] tlds:.co[].de[].jp
+[Scalastica LOG :2016-04-16 23:01:41] Auto-scheduler create orders: Array
+[Scalastica LOG :2016-04-16 23:07:57] Auto-scheduler create orders: SLAREQ: 3fb5b9e2-d8a5-b0dc-ab90-55555b11b4c3 | SLAREQ: b325d69e-c722-ee5e-eb9e-55558c845ac8 | 
+[Scalastica LOG :2016-04-16 23:11:01] Auto-scheduler create orders: sclm_servicessla_id_c='9dffe0c9-850a-bf05-4b6a-54bb74a26fc1' && DATE(end_date)>'2016-04-16' SLAREQ: Array | SLAREQ: sclm_servicessla_id_c='9dffe0c9-850a-bf05-4b6a-54bb74a26fc1' && DATE(end_date)>'2016-04-16'  | 
+[Scalastica LOG :2016-04-26 7:14:25] action:auth,email:,password:d41d8cd98f00b204e9800998ecf8427e,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-06-19 13:00:39] action:auth,email:matt@saloob.com,password:aa831fa527fdd7daaaba87bb1a899532,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-06-19 13:41:29] action:auth,email:matt@saloob.com,password:aa831fa527fdd7daaaba87bb1a899532,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-06-21 5:49:01] action:auth,email:matt@saloob.com,password:aa831fa527fdd7daaaba87bb1a899532,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-06-21 7:20:55] action:auth,email:matt@saloob.com,password:aa831fa527fdd7daaaba87bb1a899532,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-06-22 22:43:44] action:auth,email:matt@saloob.com,password:aa831fa527fdd7daaaba87bb1a899532,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-06-27 23:49:37] action:auth,email:matt@saloob.com,password:aa831fa527fdd7daaaba87bb1a899532,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-06-29 22:06:51] action:auth,email:matt@saloob.com,password:aa831fa527fdd7daaaba87bb1a899532,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-10-03 0:46:15] action:auth,email:saloobinc@gmail.com,password:04438725cc65743ffab31811d0c1f710,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-10-04 21:58:50] action:auth,email:saloobinc@gmail.com,password:04438725cc65743ffab31811d0c1f710,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-10-10 20:54:03] action:,email:saloobinc@gmail.com,password:MMMnnn777,api_key:, username:
+[Scalastica LOG :2016-10-10 22:36:21] action:auth,email:saloobinc@gmail.com,password:04438725cc65743ffab31811d0c1f710,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e
+[Scalastica LOG :2016-10-10 22:37:06] action:,email:saloobinc@gmail.com,password:MMMnnn777,api_key:, username:testaccount
+[Scalastica LOG :2016-10-11 23:29:54] action:,email:,password:,api_key:, username:
+[Scalastica LOG :2016-10-11 23:33:45] action:,email:saloobinc@gmail.com,password:MMMnnn777,api_key:, username:testaccount
+[Scalastica LOG :2016-10-12 0:01:03] tlds:.com
+[Scalastica LOG :2016-10-12 0:01:07] tlds:.com
+[Scalastica LOG :2016-10-12 0:05:07] tlds:.com
+[Scalastica LOG :2016-10-12 0:05:20] tlds:.com[].net
+[Scalastica LOG :2016-10-12 2:10:06] tlds:.com[].net[].co
+[Scalastica LOG :2016-10-12 2:31:32] tlds:.com[].net[].co
+[Scalastica LOG :2016-10-12 2:31:48] tlds:.com[].net[].co[].de
+[Scalastica LOG :2016-10-12 2:32:08] tlds:.com[].net[].co[].de
+[Scalastica LOG :2016-10-12 2:37:50] tlds:.com
+[Scalastica LOG :2016-10-12 2:37:54] tlds:.com
+[Scalastica LOG :2017-01-04 9:45:20] action:auth,email:sprekkenze72,password:,api_key:de8891b2-4407-b4c4-f153-51cb64bac59e

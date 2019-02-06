@@ -1,0 +1,95 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer2 */
+.ui-content.Facebook_Me_mobilecontainer2 {
+	padding: 15px 15px 15px 15px;
+}
+/* Name */
+.Facebook_Me_Name {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* Link */
+.Facebook_Me_Link {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* Education */
+.Facebook_Me_Education {
+	height: 31px;
+	width:100%;
+	margin: 4px 5px 4px 5px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.Facebook_Me_Education_wrapper {
+
+}
+.Facebook_Me_Education > tr > td {
+	vertical-align: top;
+}
+.Facebook_Me_Education_row_0, .Facebook_Me_Education_row_0 > td {
+	height: 31px
+}
+/* mobilegridcell1 */
+.Facebook_Me_mobilegridcell1 {
+	height:31px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.Facebook_Me_mobilegridcell1 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* SchoolName */
+.Facebook_Me_SchoolName {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* Work */
+.Facebook_Me_Work {
+	height: 31px;
+	width:100%;
+	margin: 4px 5px 4px 5px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.Facebook_Me_Work_wrapper {
+
+}
+.Facebook_Me_Work > tr > td {
+	vertical-align: top;
+}
+.Facebook_Me_Work_row_0, .Facebook_Me_Work_row_0 > td {
+	height: 31px
+}
+/* mobilegridcell3 */
+.Facebook_Me_mobilegridcell3 {
+	height:31px !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.Facebook_Me_mobilegridcell3 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* Employer */
+.Facebook_Me_Employer {
+	font-weight: normal;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter2 */
+.Facebook_Me_mobilefooter2 {
+	min-height:38px;
+}

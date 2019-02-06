@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            ContactsSync
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/dendrite/dendrite.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/login.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/Facebook_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/External_Helper.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/scalastica.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="ContactsSync" id="ContactsSync"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="ContactsSync_mobileheader" class="ContactsSync_mobileheader">
+                <h1 dsid="mobileheader">
+                    Contacts Sync
+                </h1>
+                <!-- btn_top --><!--
+                --><a data-role="button" name="btn_top" dsid="btn_top" class="ContactsSync_btn_top ui-btn-left"
+                style='min-height:16px; ' id="ContactsSync_btn_top" data-corners="true" data-icon="home"
+                data-iconpos="left" x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="b" tabindex="7">
+                &nbsp;
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="ContactsSync_mobilecontainer" name="mobilecontainer"
+            class="ContactsSync_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="ContactsSync.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="ContactsSync.js">
+                </script>
+                <!-- device_contact_keyword -->
+                <div data-role="fieldcontain" class="ContactsSync_device_contact_keyword ">
+                    <div id="ContactsSync_device_contact_keyword-cover-div">
+                        <img id="ContactsSync_device_contact_keyword-cover-img" src="files/resources/image/icon-search-cover.png"
+                        />
+                    </div>
+                    <input type="search" name="device_contact_keyword" id="ContactsSync_device_contact_keyword"
+                    dsid="device_contact_keyword" value="Search" placeholder="" data-theme="b" tabindex="4"
+                    class="ContactsSync_device_contact_keyword" />
+                </div>
+                <!-- btn_device_contact_search --><!--
+                --><a data-role="button" name="btn_device_contact_search" dsid="btn_device_contact_search"
+                class="ContactsSync_btn_device_contact_search" id="ContactsSync_btn_device_contact_search"
+                data-corners="true" data-icon="none" data-iconpos='nowhere' x-apple-data-detectors="false"
+                data-mini="true" data-theme="b" tabindex="5">
+                Search
+                </a><!--
+                --><!-- device_contacts_grid -->
+                <div class="ContactsSync_device_contacts_grid_wrapper" data-wrapper-for="device_contacts_grid">
+                    <table id="ContactsSync_device_contacts_grid" class="ContactsSync_device_contacts_grid"
+                    dsid="device_contacts_grid" name="device_contacts_grid" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="ContactsSync_device_contacts_grid_row_0">
+                            <!-- mobilegridcell_3 -->
+                            <td id="ContactsSync_mobilegridcell_3" name="mobilegridcell_3" class="ContactsSync_mobilegridcell_3"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lbl_device_contact_id -->
+                                    <div name="lbl_device_contact_id" id="ContactsSync_lbl_device_contact_id" dsid="lbl_device_contact_id"
+                                    data-role="appery_label" class="ContactsSync_lbl_device_contact_id">
+                                        Device ID
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_4 -->
+                            <td id="ContactsSync_mobilegridcell_4" name="mobilegridcell_4" class="ContactsSync_mobilegridcell_4"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- device_contact_id -->
+                                    <div data-role="fieldcontain" class="ContactsSync_device_contact_id ">
+                                        <input type="text" name="device_contact_id" dsid="device_contact_id" value="" placeholder=""
+                                        id="ContactsSync_device_contact_id" tabindex="2" multiple data-theme="b" data-mini="true"
+                                        class="ContactsSync_device_contact_id" />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="ContactsSync_device_contacts_grid_row_1">
+                            <!-- mobilegridcell_5 -->
+                            <td id="ContactsSync_mobilegridcell_5" name="mobilegridcell_5" class="ContactsSync_mobilegridcell_5"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lbl_device_contact_nickname -->
+                                    <div name="lbl_device_contact_nickname" id="ContactsSync_lbl_device_contact_nickname"
+                                    dsid="lbl_device_contact_nickname" data-role="appery_label" class="ContactsSync_lbl_device_contact_nickname">
+                                        Nickname
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_6 -->
+                            <td id="ContactsSync_mobilegridcell_6" name="mobilegridcell_6" class="ContactsSync_mobilegridcell_6"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- device_contact_nickname -->
+                                    <div data-role="fieldcontain" class="ContactsSync_device_contact_nickname ">
+                                        <input type="text" name="device_contact_nickname" dsid="device_contact_nickname"
+                                        value="" placeholder="" id="ContactsSync_device_contact_nickname" tabindex="3" multiple
+                                        data-theme="b" data-mini="true" class="ContactsSync_device_contact_nickname" />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="ContactsSync_device_contacts_grid_row_2">
+                            <!-- mobilegridcell_7 -->
+                            <td id="ContactsSync_mobilegridcell_7" name="mobilegridcell_7" class="ContactsSync_mobilegridcell_7"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_25 -->
+                                    <div name="mobilelabel_25" id="ContactsSync_mobilelabel_25" dsid="mobilelabel_25"
+                                    data-role="appery_label" class="ContactsSync_mobilelabel_25">
+                                        Display
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_8 -->
+                            <td id="ContactsSync_mobilegridcell_8" name="mobilegridcell_8" class="ContactsSync_mobilegridcell_8"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- device_contact_displayname -->
+                                    <div data-role="fieldcontain" class="ContactsSync_device_contact_displayname ">
+                                        <input type="text" name="device_contact_displayname" dsid="device_contact_displayname"
+                                        value="" placeholder="" id="ContactsSync_device_contact_displayname" tabindex="8"
+                                        multiple data-theme="b" data-mini="true" class="ContactsSync_device_contact_displayname"
+                                        />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="ContactsSync_device_contacts_grid_row_3">
+                            <!-- mobilegridcell_9 -->
+                            <td id="ContactsSync_mobilegridcell_9" name="mobilegridcell_9" class="ContactsSync_mobilegridcell_9"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_27 -->
+                                    <div name="mobilelabel_27" id="ContactsSync_mobilelabel_27" dsid="mobilelabel_27"
+                                    data-role="appery_label" class="ContactsSync_mobilelabel_27">
+                                        Email
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_10 -->
+                            <td id="ContactsSync_mobilegridcell_10" name="mobilegridcell_10" class="ContactsSync_mobilegridcell_10"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- email_grid -->
+                                    <div class="ContactsSync_email_grid_wrapper" data-wrapper-for="email_grid">
+                                        <table id="ContactsSync_email_grid" class="ContactsSync_email_grid" dsid="email_grid"
+                                        name="email_grid" cellpadding=0 cellspacing=0>
+                                            <col style="width:40px;" />
+                                            <col style="width:auto;" />
+                                            <tr class="ContactsSync_email_grid_row_0">
+                                                <!-- mobilegridcell_32 -->
+                                                <td id="ContactsSync_mobilegridcell_32" name="mobilegridcell_32" class="ContactsSync_mobilegridcell_32"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                        <!-- device_contact_email_id -->
+                                                        <div data-role="fieldcontain" class="ContactsSync_device_contact_email_id ">
+                                                            <input type="text" name="device_contact_email_id" dsid="device_contact_email_id"
+                                                            value="Input" placeholder="" id="ContactsSync_device_contact_email_id" tabindex="11"
+                                                            multiple data-theme="b" class="ContactsSync_device_contact_email_id" />
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <!-- mobilegridcell_33 -->
+                                                <td id="ContactsSync_mobilegridcell_33" name="mobilegridcell_33" class="ContactsSync_mobilegridcell_33"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                        <!-- device_contact_email -->
+                                                        <div data-role="fieldcontain" class="ContactsSync_device_contact_email ">
+                                                            <input type="text" name="device_contact_email" dsid="device_contact_email" value=""
+                                                            placeholder="" id="ContactsSync_device_contact_email" tabindex="9" multiple data-theme="b"
+                                                            class="ContactsSync_device_contact_email" />
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="ContactsSync_email_grid_row_1">
+                                                <!-- mobilegridcell_45 -->
+                                                <td id="ContactsSync_mobilegridcell_45" name="mobilegridcell_45" class="ContactsSync_mobilegridcell_45"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                    </div>
+                                                </td>
+                                                <!-- mobilegridcell_46 -->
+                                                <td id="ContactsSync_mobilegridcell_46" name="mobilegridcell_46" class="ContactsSync_mobilegridcell_46"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                        <!-- device_contact_email_type -->
+                                                        <div name="device_contact_email_type" id="ContactsSync_device_contact_email_type"
+                                                        dsid="device_contact_email_type" data-role="appery_label" class="ContactsSync_device_contact_email_type">
+                                                            Label
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="ContactsSync_device_contacts_grid_row_4">
+                            <!-- mobilegridcell_21 -->
+                            <td id="ContactsSync_mobilegridcell_21" name="mobilegridcell_21" class="ContactsSync_mobilegridcell_21"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_29 -->
+                                    <div name="mobilelabel_29" id="ContactsSync_mobilelabel_29" dsid="mobilelabel_29"
+                                    data-role="appery_label" class="ContactsSync_mobilelabel_29">
+                                        Phone
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_22 -->
+                            <td id="ContactsSync_mobilegridcell_22" name="mobilegridcell_22" class="ContactsSync_mobilegridcell_22"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- phone_grid -->
+                                    <div class="ContactsSync_phone_grid_wrapper" data-wrapper-for="phone_grid">
+                                        <table id="ContactsSync_phone_grid" class="ContactsSync_phone_grid" dsid="phone_grid"
+                                        name="phone_grid" cellpadding=0 cellspacing=0>
+                                            <col style="width:auto;" />
+                                            <col style="width:auto;" />
+                                            <tr class="ContactsSync_phone_grid_row_0">
+                                                <!-- mobilegridcell_39 -->
+                                                <td id="ContactsSync_mobilegridcell_39" name="mobilegridcell_39" class="ContactsSync_mobilegridcell_39"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                        <!-- device_contact_phone_id -->
+                                                        <div name="device_contact_phone_id" id="ContactsSync_device_contact_phone_id" dsid="device_contact_phone_id"
+                                                        data-role="appery_label" class="ContactsSync_device_contact_phone_id">
+                                                            Label
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <!-- mobilegridcell_40 -->
+                                                <td id="ContactsSync_mobilegridcell_40" name="mobilegridcell_40" class="ContactsSync_mobilegridcell_40"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                        <!-- device_contact_phone -->
+                                                        <div data-role="fieldcontain" class="ContactsSync_device_contact_phone ">
+                                                            <input type="text" name="device_contact_phone" dsid="device_contact_phone" value=""
+                                                            placeholder="" id="ContactsSync_device_contact_phone" tabindex="10" multiple data-theme="b"
+                                                            class="ContactsSync_device_contact_phone" />
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="ContactsSync_phone_grid_row_1">
+                                                <!-- mobilegridcell_41 -->
+                                                <td id="ContactsSync_mobilegridcell_41" name="mobilegridcell_41" class="ContactsSync_mobilegridcell_41"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                    </div>
+                                                </td>
+                                                <!-- mobilegridcell_42 -->
+                                                <td id="ContactsSync_mobilegridcell_42" name="mobilegridcell_42" class="ContactsSync_mobilegridcell_42"
+                                                colspan=1 rowspan=1>
+                                                    <div class="cell-wrapper">
+                                                        <!-- device_contact_phone_type -->
+                                                        <div name="device_contact_phone_type" id="ContactsSync_device_contact_phone_type"
+                                                        dsid="device_contact_phone_type" data-role="appery_label" class="ContactsSync_device_contact_phone_type">
+                                                            Label
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="ContactsSync_device_contacts_grid_row_5">
+                            <!-- mobilegridcell_23 -->
+                            <td id="ContactsSync_mobilegridcell_23" name="mobilegridcell_23" class="ContactsSync_mobilegridcell_23"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lbl_device_contact_sync_status -->
+                                    <div name="lbl_device_contact_sync_status" id="ContactsSync_lbl_device_contact_sync_status"
+                                    dsid="lbl_device_contact_sync_status" data-role="appery_label" class="ContactsSync_lbl_device_contact_sync_status">
+                                        Sync Status
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_24 -->
+                            <td id="ContactsSync_mobilegridcell_24" name="mobilegridcell_24" class="ContactsSync_mobilegridcell_24"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- device_contact_sync_status -->
+                                    <div data-role="fieldcontain" class="ContactsSync_device_contact_sync_status ">
+                                        <select data-role="flipswitch" name="device_contact_sync_status" id="ContactsSync_device_contact_sync_status"
+                                        dsid="device_contact_sync_status" data-theme="b" data-track-theme="b">
+                                            <option value="off">
+                                                No
+                                            </option>
+                                            <option value="on">
+                                                Yes
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="ContactsSync_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="ContactsSync_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

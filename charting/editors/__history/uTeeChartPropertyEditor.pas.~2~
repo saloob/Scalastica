@@ -1,0 +1,308 @@
+unit uTeeChartPropertyEditor;
+
+interface
+
+uses Windows, Classes, Dialogs, Controls,
+Forms, Graphics, SysUtils, D4PHPIntf,
+ComCtrls, valedit, grids,
+uNativePropertyEditors, uArrayEditor;
+
+type
+
+TSeriesPropertyEditor = class(TArrayPropertyEditor)
+
+private
+
+latestkeyname: string;
+
+public
+
+procedure beforeShowEditor(dialog: TForm); override;
+
+procedure vePropertiesGetPickList(Sender: TObject; const KeyName: string; Values: TStrings);
+
+procedure vePropertiesEditButtonClick(Sender: TObject);
+
+procedure vePropertiesDblClick(Sender: TObject);
+
+procedure vePropertiesSelectCell(Sender: TObject; ACol, ARow: Integer; var CanSelect: Boolean);
+
+procedure GetNewItemCaption(Sender: TObject; var itemcaption: string);
+
+end;
+
+implementation
+
+end.
+
+The only method to override is beforeShowEditor, which is called to prepare the editor for working, the rest of methods are helpers and event handlers for the controls in the editor.
+
+Implementing the methods
+
+The first method to implement is beforeShowEditor, the dialog parameter contains the form that is shown to the user, so we can customize it:
+
+procedure TSeriesPropertyEditor.beforeShowEditor(dialog: TForm);
+
+begin
+
+inherited;
+
+latestkeyname := '';
+
+with dialog as TArrayEditorDlg do begin
+
+OnGetNewItemCaption := GetNewItemCaption;
+
+caption := 'Series Editor';
+
+btnNewSubItem.Visible := false;
+
+btnLoad.Visible := false;
+
+captionproperty := 'Name';
+
+btnDelete.Top := btnNewSubItem.top;
+
+with defaultproperties do begin
+
+add('Alpha=');
+
+add('Animate=false');
+
+add('Color=');
+
+add('DataSource=');
+
+add('DotSize=1');
+
+add('FunFactor=1');
+
+add('HaloSize=1');
+
+add('Hint=');
+
+add('KeySize=');
+
+add('KeyText=');
+
+add('Name=');
+
+add('StartAngle=0');
+
+add('Type=ctLine');
+
+add('OutlineColor=');
+
+add('Width=1');
+
+add('XLabelsField=');
+
+add('XValuesField=');
+
+add('YLabelsField=');
+
+add('YValuesField=');
+
+add('OnClick=');
+
+add('OnCustomize=');
+
+add('OnGetData=');
+
+end;
+
+veProperties.OnGetPickList := vePropertiesGetPickList;
+
+veProperties.OnEditButtonClick := vePropertiesEditButtonClick;
+
+veProperties.OnSelectCell := vePropertiesSelectCell;
+
+veProperties.OnDblClick := vePropertiesDblClick;
+
+veProperties.DefaultColWidth:=132;
+
+end;
+
+end;
+
+On the first lines, we set the caption for the editor and the buttons that are going to be available. Also, we set which property, of the existing attributes, is going to be used to set the caption of the entry, in this case we set it to Name, so when the user changes that value on the right side of the editor, the name of the serie will be changed.
+
+Later, all the default properties for a serie are added, with its default values, and finally, the event handlers are attached.
+
+Setting the default name for new series
+
+procedure TSeriesPropertyEditor.GetNewItemCaption(Sender: TObject;
+
+var itemcaption: string);
+
+begin
+
+itemcaption := 'Serie' + inttostr((sender as TArrayEditorDlg).tvItems.Items.Count + 1);
+
+end;
+
+This method is called when a new item is created by the user, in this case, a new serie, it just returns on itemcaption the name of the serie with a sequence number.
+
+Creating events from the property editor
+
+procedure TSeriesPropertyEditor.vePropertiesDblClick(Sender: TObject);
+
+var
+
+ename: string;
+
+control: string;
+
+x, y: integer;
+
+begin
+
+if (latestkeyname = 'OnClick') then begin
+
+ename := trim((sender as TValueListEditor).Values[latestkeyname]);
+
+control := (sender as TValueListEditor).Values['Name'];
+
+if (ename = '') then ename := control + 'Click';
+
+addEvent('?>' + #13 + #10 + #13 + #10 + '<?php', ename, x, y);
+
+(sender as TValueListEditor).Values[latestkeyname] := ename;
+
+GotoPos(x, y);
+
+end;
+
+if (latestkeyname = 'OnGetData') then begin
+
+ename := trim((sender as TValueListEditor).Values[latestkeyname]);
+
+control := (sender as TValueListEditor).Values['Name'];
+
+if (ename = '') then ename := control + 'GetData';
+
+addEvent('' + #13 + #10 + #13 + #10 + '', ename, x, y);
+
+(sender as TValueListEditor).Values[latestkeyname] := ename;
+
+GotoPos(x, y);
+
+end;
+
+if (latestkeyname = 'OnCustomize') then begin
+
+ename := trim((sender as TValueListEditor).Values[latestkeyname]);
+
+control := (sender as TValueListEditor).Values['Name'];
+
+if (ename = '') then ename := control + 'Customize';
+
+addEvent('' + #13 + #10 + #13 + #10 + '', ename, x, y);
+
+(sender as TValueListEditor).Values[latestkeyname] := ename;
+
+GotoPos(x, y);
+
+end;
+
+end;
+
+This method is executed when a cell is double clicked, and, if we check the cell is an event:
+
+    * Get the value for that cell
+    * Get the name of the serie
+    * Use the addEvent method that will add a method to the current Page on the IDE
+    * Set the value to the new event handler value
+    * Make the editor go to that position
+
+All this for the three events a serie can have.
+
+Offering values for a property
+
+procedure TSeriesPropertyEditor.vePropertiesGetPickList(Sender: TObject;
+
+const KeyName: string; Values: TStrings);
+
+begin
+
+if (KeyName = 'OnGetData') or (KeyName = 'OnCustomize') then begin
+
+GetExistingEvents(values);
+
+end;
+
+if (KeyName = 'Type') then begin
+
+with values do begin
+
+add('ctLine');
+
+add('ctLineDot');
+
+add('ctLineHollow');
+
+add('ctBar');
+
+add('ctBarFilled');
+
+add('ctBarGlass');
+
+add('ctBar3D');
+
+add('ctBarSketch');
+
+add('ctBarHorizontal');
+
+add('ctBarStacked');
+
+add('ctArea');
+
+add('ctAreaHollow');
+
+add('ctPie');
+
+add('ctScatter');
+
+add('ctScatterLine');
+
+add('ctRadar');
+
+end;
+
+end;
+
+if (KeyName = 'Animate') then begin
+
+with values do begin
+
+add('true');
+
+add('false');
+
+end;
+
+end;
+
+if (KeyName = 'DataSource') then begin
+
+getcomponents('Datasource', values);
+
+end;
+
+end;
+
+And finally, this method is called when the user drops down the value box on the values editor, so we can offer a list of valid values. In this case, for Type, we offer all the types of charts the user can create, for Animate, just true or false, and for DataSource, we show a list of Datasource components found on the form. The getcomponents function is a built-in function offered by the IDE.
+
+Initialization
+
+To attach this property editor to the Series property of the OpenChart component, just use the initialization section this way:
+
+initialization
+
+//Register all property editors
+
+registerPropertyEditor('OpenChart', 'Series', TSeriesPropertyEditor);
+
+So the IDE knows which property editor use when the user tries to edit such property.
+
+end.

@@ -1,0 +1,92 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* btn_home */
+#EventAdd_btn_home {
+
+}
+.ui-btn.EventAdd_btn_home {
+
+}
+/* mobilecontainer */
+.ui-content.EventAdd_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* event_id */
+.EventAdd_event_id {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* parent_event */
+#EventAdd_parent_event {
+
+}
+.ui-btn.EventAdd_parent_event {
+	margin: 4px 5px 4px 5px;
+}
+/* event_name */
+.EventAdd_event_name {
+	margin: 4px 0px 4px 0px;
+}
+/* categories */
+.EventAdd_categories {
+	margin: 4px 5px 4px 5px;
+}
+/* start_date */
+.EventAdd_start_date {
+	margin: 4px 0px 4px 0px;
+}
+.EventAdd_start_date .datePickerControls {
+	position:relative;
+	top:0;
+	padding-right:45px;
+}
+.EventAdd_start_date .datepickeropenbutton {
+	position:absolute;
+	right:0;
+}
+/* end_date */
+.EventAdd_end_date {
+	margin: 4px 0px 4px 0px;
+}
+.EventAdd_end_date .datePickerControls {
+	position:relative;
+	top:0;
+	padding-right:45px;
+}
+.EventAdd_end_date .datepickeropenbutton {
+	position:absolute;
+	right:0;
+}
+/* location_name */
+.EventAdd_location_name {
+	margin: 4px 0px 4px 0px;
+}
+/* latitude */
+.EventAdd_latitude {
+	margin: 4px 0px 4px 0px;
+}
+/* longitude */
+.EventAdd_longitude {
+	margin: 4px 0px 4px 0px;
+}
+/* description */
+.EventAdd_description {
+	margin: 4px 0px 4px 0px;
+}
+/* btn_submit_event */
+#EventAdd_btn_submit_event {
+
+}
+.ui-btn.EventAdd_btn_submit_event {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.EventAdd_mobilefooter {
+	min-height:38px;
+}

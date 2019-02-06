@@ -1,0 +1,142 @@
+/* myplesk.com adds */
+
+/* main/buttons.css */
+
+#bid-register-domain span {
+  background-image: url('../images/nav_domains.gif');
+}
+
+#bid-buy-cert span {
+  background-image: url('../images/cert_ca_cert_on.gif');
+}
+
+
+#bid-view-previous-requests span {
+  background-image: url('../icons/file_show.gif');
+}
+
+/* main/layout.css */
+
+/* main/custom.css */
+
+h2 {
+  color: #f60;
+  margin: 4px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+a.commonButton:link,
+a.commonButton:visited,
+a.commonButton:active,
+a.commonButton:hover {
+  color: #000;
+}
+
+/* top/custom.css */
+
+#topTxtBlock {
+  color: #ffffff;
+}
+
+#topTxtProfile, 
+#topTxtLoggedIn {
+  display: -moz-inline-box;
+  display: inline-block;
+  background-position: 9px 6px;
+  background-repeat: no-repeat;
+  padding-left: 11px;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  vertical-align: top;
+  margin-top: 10px;
+  text-align: left;
+  color: #ffffff;  
+}
+
+#topTxtLogout {
+  border-left-style: none;
+}
+
+#topTxtProfile {
+  background-image: url('../icons/custom_button_place_client.gif');
+}
+
+#topTxtBlock a:link,
+#topTxtBlock a:active,
+#topTxtBlock a:visited {
+  font-size: 11px;
+  color: #ffffff;
+}
+
+#topTxtProfile a {
+  display: block;
+  white-space: nowrap;
+}
+
+/* buttons */
+button.buyButton {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+  background-color: transparent;
+  text-align: left;
+  color: #fff; }
+a.buyButton:visited,
+a.buyButton:hover,
+a.buyButton {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none; }
+button.buyButton,
+a.buyButton {
+  vertical-align: middle;
+  display: inline-block;
+  background-image: url('../icons/bg_bbtn_right.gif');
+  background-repeat: no-repeat;
+  background-position: right top;
+  cursor: pointer;
+  margin: 0 5px 0 0;
+  height: 27px;
+  padding: 0 12px 0 0;
+  word-spacing: 0;
+  text-align: center;
+  border-style: none;
+  border-width: 0; }
+.buyButton span {
+  display: inline-block;
+  background-image: url('../icons/bg_bbtn_left.gif');
+  background-repeat: no-repeat;
+  background-position: left top;
+  vertical-align: baseline;
+  padding-left: 30px;
+  padding-right: 8px;
+  height: 27px;
+  line-height: 26px;
+  white-space: nowrap; }
+
+.buyButton {
+  zoom: 1;
+  display: table-cell;
+  display: -moz-box; }
+button.buyButton span {
+  float: left; }
+a.buyButton span,
+a.downloadButton span {
+  display: block;
+  width:auto !important; width:1px; }
+button.buyButton {
+  overflow: visible;
+  width:auto !important; width:1px;
+  -moz-padding-end: 8px !important;
+  -moz-padding-start: 0 !important; }
+button.buyButton span:-moz-first-node {
+  margin-top: -1px;
+  -moz-margin-start: -3px !important; }
+
